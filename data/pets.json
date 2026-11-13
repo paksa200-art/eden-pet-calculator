@@ -2961,7 +2961,13 @@
       "source": "추석 이벤트",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        50.04,
+        10.78,
+        6.24,
+        8.28
+      ]
     },
     {
       "name": "노곤",
@@ -3004,7 +3010,13 @@
       "source": "추석 이벤트",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        47.4,
+        10.2,
+        5.45,
+        8.76
+      ]
     },
     {
       "name": "모가",
@@ -3047,7 +3059,13 @@
       "source": "추석 이벤트",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        51.96,
+        11.32,
+        6.57,
+        8.52
+      ]
     },
     {
       "name": "르곤",
@@ -3090,7 +3108,13 @@
       "source": "추석 이벤트",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        56.76,
+        12.17,
+        7.2,
+        8.28
+      ]
     },
     {
       "name": "오가",
@@ -3133,7 +3157,13 @@
       "source": "추석 이벤트",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        57.72,
+        12.67,
+        7.71,
+        7.32
+      ]
     },
     {
       "name": "클리오스",
@@ -3176,7 +3206,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        57.72,
+        12.46,
+        7.92,
+        7.32
+      ]
     },
     {
       "name": "나틸로스",
@@ -3219,7 +3255,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        60.12,
+        13.06,
+        9.91,
+        5.87
+      ]
     },
     {
       "name": "차크론",
@@ -3262,7 +3304,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        59.12,
+        12.44,
+        7.49,
+        8.87
+      ]
     },
     {
       "name": "와일로",
@@ -3305,7 +3353,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        63.87,
+        11.75,
+        10.4,
+        6.62
+      ]
     },
     {
       "name": "자크로",
@@ -3348,7 +3402,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        62.28,
+        11.92,
+        9.54,
+        4.2
+      ]
     },
     {
       "name": "허미크",
@@ -3391,7 +3451,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        59.22,
+        10.18,
+        10.39,
+        4.48
+      ]
     },
     {
       "name": "누포린",
@@ -3434,7 +3500,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        44.77,
+        9.39,
+        5.04,
+        8.47
+      ]
     },
     {
       "name": "크라블",
@@ -3477,7 +3549,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        55.33,
+        9.65,
+        9.85,
+        2.09
+      ]
     },
     {
       "name": "푸치무노",
@@ -3520,7 +3598,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        54.62,
+        9.74,
+        8.71,
+        5.4
+      ]
     },
     {
       "name": "파투스",
@@ -3563,7 +3647,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        51.24,
+        11.35,
+        7.9,
+        6.36
+      ]
     },
     {
       "name": "프라피",
@@ -3606,7 +3696,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.72,
+        9.09,
+        7.02,
+        8.85
+      ]
     },
     {
       "name": "루탈파",
@@ -3649,7 +3745,13 @@
       "source": "운영지원",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        52.92,
+        10.85,
+        5.88,
+        9.72
+      ]
     },
     {
       "name": "샤우트",
@@ -3692,7 +3794,13 @@
       "source": "운영지원",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        65.88,
+        11.93,
+        12.15,
+        2.52
+      ]
     },
     {
       "name": "포일론",
@@ -3735,7 +3843,13 @@
       "source": "흑운모 교환",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        61.87,
+        13.3,
+        9.25,
+        6.12
+      ]
     },
     {
       "name": "흑돌",
@@ -3778,7 +3892,13 @@
       "source": "흑운모 교환",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.95,
+        9.87,
+        5.52,
+        8.85
+      ]
     },
     {
       "name": "펭펭",
@@ -3821,7 +3941,13 @@
       "source": "흑운모 교환",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        48.87,
+        9.68,
+        5.75,
+        8.85
+      ]
     },
     {
       "name": "마크론",
@@ -3864,7 +3990,13 @@
       "source": "흑운모 교환",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        56.37,
+        12.36,
+        7.19,
+        9.37
+      ]
     },
     {
       "name": "모사크",
@@ -3906,7 +4038,13 @@
       "source": "흑운모 교환",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        58.68,
+        12.48,
+        7.95,
+        7.32
+      ]
     },
     {
       "name": "아크론",
@@ -3949,7 +4087,13 @@
       "source": "봉인된 신전(제한레이드)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        56.76,
+        11.49,
+        7.17,
+        9
+      ]
     },
     {
       "name": "메카구루마루",
@@ -3992,7 +4136,13 @@
       "source": "엘리트보스(메카구루마루)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        57,
+        12.41,
+        7.23,
+        8.28
+      ]
     },
     {
       "name": "메카크랩",
@@ -4035,7 +4185,13 @@
       "source": "엘리트보스(메카크랩)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        68.76,
+        11.09,
+        12.6,
+        2.04
+      ]
     },
     {
       "name": "메카링코",
@@ -4078,7 +4234,13 @@
       "source": "엘리트보스(메카링코)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        66.81,
+        10.39,
+        6.66,
+        8.62
+      ]
     },
     {
       "name": "본드래곤",
@@ -4121,7 +4283,13 @@
       "source": "봉인된 신전(제한레이드)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        60.12,
+        12.95,
+        7.78,
+        8.12
+      ]
     },
     {
       "name": "블루문",
@@ -4164,7 +4332,13 @@
       "source": "E코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        58.87,
+        12.68,
+        7.73,
+        8.12
+      ]
     },
     {
       "name": "바쿠우",
@@ -4207,7 +4381,13 @@
       "source": "E코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.1,
+        9.22,
+        6.7,
+        6.9
+      ]
     },
     {
       "name": "푸르노로스",
@@ -4250,7 +4430,13 @@
       "source": "E코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        59.45,
+        11.18,
+        8.07,
+        7.01
+      ]
     },
     {
       "name": "노라돈",
@@ -4293,7 +4479,13 @@
       "source": "E코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        58.72,
+        11.99,
+        8.59,
+        7.15
+      ]
     },
     {
       "name": "토끼",
@@ -4335,7 +4527,13 @@
       "source": "E코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        44.19,
+        7.69,
+        6.56,
+        6.75
+      ]
     },
     {
       "name": "스피노",
@@ -4377,7 +4575,13 @@
       "source": "F코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        58.37,
+        13.4,
+        8,
+        7.62
+      ]
     },
     {
       "name": "라루루",
@@ -4420,7 +4624,13 @@
       "source": "F코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        42.84,
+        8.7,
+        5.97,
+        7.31
+      ]
     },
     {
       "name": "진주토로스",
@@ -4463,7 +4673,13 @@
       "source": "F코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        52.09,
+        8.19,
+        9.22,
+        6.55
+      ]
     },
     {
       "name": "연두큐이",
@@ -4506,7 +4722,13 @@
       "source": "F코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        38.7,
+        7.35,
+        5.37,
+        5.9
+      ]
     },
     {
       "name": "기트로스",
@@ -4549,7 +4771,13 @@
       "source": "F코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        57.07,
+        11.16,
+        10.69,
+        3.25
+      ]
     },
     {
       "name": "체루루",
@@ -4592,7 +4820,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        46.11,
+        9.61,
+        6.1,
+        7.47
+      ]
     },
     {
       "name": "하르가",
@@ -4635,7 +4869,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        54.16,
+        11.21,
+        6.87,
+        8.16
+      ]
     },
     {
       "name": "파이톤",
@@ -4678,7 +4918,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        48.87,
+        10.59,
+        6.45,
+        7.24
+      ]
     },
     {
       "name": "토로카",
@@ -4721,7 +4967,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        55.8,
+        12.65,
+        8.11,
+        6.84
+      ]
     },
     {
       "name": "지고르",
@@ -4764,7 +5016,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        55.08,
+        11.77,
+        8.66,
+        5.86
+      ]
     },
     {
       "name": "베라라",
@@ -4807,7 +5065,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        51.24,
+        11.09,
+        6.77,
+        8.76
+      ]
     },
     {
       "name": "로데오",
@@ -4850,7 +5114,13 @@
       "source": "타니토스의 신전에서 네메시스의 길로",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        58.62,
+        13.18,
+        8,
+        8.12
+      ]
     },
     {
       "name": "백호",
@@ -4893,7 +5163,13 @@
       "source": "하이하모 신전에서 영웅의 길로",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        59.37,
+        13.46,
+        8.74,
+        6.87
+      ]
     },
     {
       "name": "타라쿠스",
@@ -4936,7 +5212,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        65.64,
+        11.25,
+        12.33,
+        2.76
+      ]
     },
     {
       "name": "메카고르고",
@@ -4979,7 +5261,13 @@
       "source": "엘리트보스(메카고르고)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        59.4,
+        12.27,
+        7.95,
+        7.32
+      ]
     },
     {
       "name": "메카만모",
@@ -5022,7 +5310,13 @@
       "source": "엘리트보스(메카만모)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        66.12,
+        11.68,
+        11.89,
+        2.28
+      ]
     },
     {
       "name": "메카네고스",
@@ -5065,7 +5359,13 @@
       "source": "엘리트보스(메카네고스)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        57.15,
+        12.02,
+        8.29,
+        6.32
+      ]
     },
     {
       "name": "아라",
@@ -5108,7 +5408,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        44.11,
+        8.98,
+        5.61,
+        7.59
+      ]
     },
     {
       "name": "쿠아",
@@ -5151,7 +5457,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        46.11,
+        9.89,
+        6.79,
+        7.47
+      ]
     },
     {
       "name": "밍코",
@@ -5194,7 +5506,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        52.44,
+        10.36,
+        6.04,
+        8.52
+      ]
     },
     {
       "name": "마루아치",
@@ -5237,7 +5555,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        56.03,
+        12.51,
+        7.83,
+        6.89
+      ]
     },
     {
       "name": "고루바",
@@ -5280,7 +5604,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        60.37,
+        11.04,
+        11.71,
+        6.37
+      ]
     },
     {
       "name": "야크노",
@@ -5323,7 +5653,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        51.35,
+        11.35,
+        7.37,
+        6.63
+      ]
     },
     {
       "name": "브라키우스",
@@ -5366,7 +5702,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        66.37,
+        13.03,
+        11.68,
+        2.62
+      ]
     },
     {
       "name": "바라쿠스",
@@ -5409,7 +5751,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        69.87,
+        11.28,
+        13.08,
+        2.62
+      ]
     },
     {
       "name": "푸테라",
@@ -5452,7 +5800,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        61.49,
+        12.21,
+        8,
+        9.75
+      ]
     },
     {
       "name": "칼로스",
@@ -5495,7 +5849,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        58.12,
+        12.66,
+        7.71,
+        8.37
+      ]
     },
     {
       "name": "실버로크스",
@@ -5538,7 +5898,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        61.37,
+        9.78,
+        10.23,
+        8.12
+      ]
     },
     {
       "name": "부라키오스",
@@ -5581,7 +5947,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        67.62,
+        11.24,
+        13.04,
+        3.37
+      ]
     },
     {
       "name": "라가로스",
@@ -5624,7 +5996,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        60.19,
+        10.49,
+        11.19,
+        2.47
+      ]
     },
     {
       "name": "다리노스",
@@ -5667,7 +6045,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        56.92,
+        8.81,
+        9.64,
+        7.93
+      ]
     },
     {
       "name": "토우트",
@@ -5710,7 +6094,13 @@
       "source": "운영지원",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        71.12,
+        11.99,
+        12.44,
+        2.87
+      ]
     },
     {
       "name": "백여우",
@@ -5753,7 +6143,13 @@
       "source": "운영지원",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        58.37,
+        12.68,
+        7.73,
+        8.62
+      ]
     },
     {
       "name": "봉봉",
@@ -5796,7 +6192,13 @@
       "source": "운영지원",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        59.37,
+        12.96,
+        8.24,
+        7.87
+      ]
     },
     {
       "name": "델푸스",
@@ -5839,7 +6241,13 @@
       "source": "운영지원",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        51,
+        10.59,
+        6.48,
+        8.28
+      ]
     },
     {
       "name": "팔케온",
@@ -5882,7 +6290,13 @@
       "source": "개인듀얼 보상",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.26,
+        10.07,
+        5.52,
+        8.85
+      ]
     },
     {
       "name": "롤프",
@@ -5925,7 +6339,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        52.68,
+        10.86,
+        6.33,
+        9
+      ]
     },
     {
       "name": "볼케이노",
@@ -5968,7 +6388,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        48.12,
+        10.96,
+        7.07,
+        5.16
+      ]
     },
     {
       "name": "헬베로스",
@@ -6011,7 +6437,13 @@
       "source": "무제한레이드 - 지옥문수호자",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        57.12,
+        13.08,
+        7,
+        8.62
+      ]
     },
     {
       "name": "바이론",
@@ -6054,7 +6486,13 @@
       "source": "무제한레이드 - 헬 바이론",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        57.72,
+        12.94,
+        8.4,
+        6.36
+      ]
     },
     {
       "name": "타우루스",
@@ -6097,7 +6535,13 @@
       "source": "무제한레이드 - 헬 타우루스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        64.68,
+        11.67,
+        12.1,
+        2.52
+      ]
     },
     {
       "name": "푸룡",
@@ -6140,7 +6584,13 @@
       "source": "개인듀얼 보상",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        60.12,
+        12.94,
+        7.54,
+        8.37
+      ]
     },
     {
       "name": "레드데블로스",
@@ -6183,7 +6633,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        50.76,
+        10.56,
+        6.24,
+        8.28
+      ]
     },
     {
       "name": "야무리선수",
@@ -6226,7 +6682,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        55.31,
+        10.98,
+        10.16,
+        5.4
+      ]
     },
     {
       "name": "노스토로스",
@@ -11022,7 +11484,13 @@
       "source": "사기당한 청년을 도와주자",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        52.37,
+        11.25,
+        6.75,
+        8.62
+      ]
     },
     {
       "name": "핑코",
@@ -11065,7 +11533,13 @@
       "source": "에레보스의 야생공룡 퇴치",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        56.37,
+        12.86,
+        7.69,
+        8.37
+      ]
     },
     {
       "name": "이구로스",
@@ -11108,7 +11582,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        52.87,
+        11,
+        6.5,
+        8.62
+      ]
     },
     {
       "name": "아르카",
@@ -11151,7 +11631,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.37,
+        9.6,
+        5.55,
+        9.12
+      ]
     },
     {
       "name": "델타르돈",
@@ -11194,7 +11680,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.03,
+        10.33,
+        6.81,
+        6.09
+      ]
     },
     {
       "name": "비트로돈",
@@ -11237,7 +11729,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        53.12,
+        11.8,
+        7.98,
+        6.62
+      ]
     },
     {
       "name": "가이록스",
@@ -11280,7 +11778,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        50.31,
+        10.02,
+        6.51,
+        7.67
+      ]
     },
     {
       "name": "미니스",
@@ -11323,7 +11827,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        48.49,
+        9.7,
+        6.19,
+        7.41
+      ]
     },
     {
       "name": "스톤크랩",
@@ -11365,7 +11875,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        63.24,
+        10.97,
+        12.7,
+        2.04
+      ]
     },
     {
       "name": "야무리",
@@ -11408,7 +11924,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        63.24,
+        12.48,
+        11.19,
+        2.04
+      ]
     },
     {
       "name": "레오딘",
@@ -11451,7 +11973,13 @@
       "source": "전쟁포인트",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        51.37,
+        11.44,
+        6.71,
+        7.37
+      ]
     },
     {
       "name": "노르곤",
@@ -11494,7 +12022,13 @@
       "source": "전쟁포인트",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        56.62,
+        12.16,
+        7.66,
+        9.37
+      ]
     },
     {
       "name": "쟈돈",
@@ -11537,7 +12071,13 @@
       "source": "정규듀얼우승",
       "tier": "1등급",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        57.38,
+        12.19,
+        7.22,
+        7.47
+      ]
     },
     {
       "name": "유키",
@@ -11580,7 +12120,13 @@
       "source": "정규듀얼우승",
       "tier": "1등급",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        50.27,
+        9.83,
+        5.68,
+        10.67
+      ]
     },
     {
       "name": "천호",
@@ -11622,7 +12168,13 @@
       "source": "정규듀얼우승",
       "tier": "1등급",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        58.62,
+        12.44,
+        7.49,
+        9.37
+      ]
     },
     {
       "name": "발카론",
@@ -11665,7 +12217,13 @@
       "source": "정규듀얼우승",
       "tier": "1등급",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        58.62,
+        13.15,
+        7.53,
+        8.62
+      ]
     },
     {
       "name": "디사크",
@@ -11708,7 +12266,13 @@
       "source": "운영지원",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        53.37,
+        12.24,
+        7.06,
+        7.37
+      ]
     },
     {
       "name": "아리",
@@ -11751,7 +12315,13 @@
       "source": "운영지원",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        46.68,
+        9.29,
+        5.62,
+        9.72
+      ]
     },
     {
       "name": "파베로스",
@@ -11793,7 +12363,13 @@
       "source": "운영지원",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        56.37,
+        12.13,
+        7.18,
+        9.62
+      ]
     },
     {
       "name": "우라노스",
@@ -11836,7 +12412,13 @@
       "source": "주간레이드 - 질투의 방",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        51.16,
+        10.61,
+        6.24,
+        8.23
+      ]
     },
     {
       "name": "백룡",
@@ -11879,7 +12461,13 @@
       "source": "주간레이드 - 분노의 방",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        51.37,
+        11.2,
+        6.7,
+        7.62
+      ]
     },
     {
       "name": "어린백룡",
@@ -11922,7 +12510,13 @@
       "source": "주간레이드 - 분노의 방",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        50.37,
+        10.21,
+        6.84,
+        7.37
+      ]
     },
     {
       "name": "흑룡",
@@ -11965,7 +12559,13 @@
       "source": "주간레이드 - 나태의 방",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        48.62,
+        10.38,
+        6.1,
+        8.12
+      ]
     },
     {
       "name": "어린흑룡",
@@ -12008,7 +12608,13 @@
       "source": "주간레이드 - 나태의 방",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.87,
+        10.09,
+        5.81,
+        7.87
+      ]
     },
     {
       "name": "흑기린",
@@ -12051,7 +12657,13 @@
       "source": "주간레이드 - 오만의 방",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        53.37,
+        12.79,
+        8.51,
+        5.37
+      ]
     },
     {
       "name": "라이쿠스",
@@ -12094,7 +12706,13 @@
       "source": "주간레이드 - 탐욕의 방",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        67.32,
+        11.28,
+        12.36,
+        2.52
+      ]
     },
     {
       "name": "메피노",
@@ -12137,7 +12755,13 @@
       "source": "주간레이드 - 탐욕의 방",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        58.37,
+        13.18,
+        8.23,
+        7.62
+      ]
     },
     {
       "name": "설표",
@@ -12180,7 +12804,13 @@
       "source": "필드포획(볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        48.37,
+        10.14,
+        6.31,
+        7.87
+      ]
     },
     {
       "name": "어린설표",
@@ -12223,7 +12853,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.62,
+        10.1,
+        6.28,
+        7.12
+      ]
     },
     {
       "name": "키파",
@@ -12266,7 +12902,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        46.11,
+        9.36,
+        5.43,
+        8.39
+      ]
     },
     {
       "name": "그램고르",
@@ -12309,7 +12951,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        57.72,
+        11.25,
+        10.81,
+        5.64
+      ]
     },
     {
       "name": "호르카",
@@ -12352,7 +13000,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.95,
+        8.99,
+        5.89,
+        8.39
+      ]
     },
     {
       "name": "펠트로돈",
@@ -12395,7 +13049,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.49,
+        10.11,
+        6.8,
+        5.86
+      ]
     },
     {
       "name": "타키온",
@@ -12438,7 +13098,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        49.56,
+        9.55,
+        5.88,
+        7.32
+      ]
     },
     {
       "name": "기바바",
@@ -12481,7 +13147,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        45.12,
+        8.65,
+        7.46,
+        5.98
+      ]
     },
     {
       "name": "푸타푸타",
@@ -12524,7 +13196,13 @@
       "source": "일일레이드 - 교만의 방",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        49.37,
+        9.94,
+        6.11,
+        9.37
+      ]
     },
     {
       "name": "테로노돈",
@@ -12566,7 +13244,13 @@
       "source": "일일레이드 - 교만의 방",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        49.08,
+        9.57,
+        5.68,
+        9
+      ]
     },
     {
       "name": "아르마루",
@@ -12609,7 +13293,13 @@
       "source": "일일레이드 - 편견의 방",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        56.12,
+        12.11,
+        7.61,
+        7.87
+      ]
     },
     {
       "name": "크로아치",
@@ -12652,7 +13342,13 @@
       "source": "일일레이드 - 편견의 방",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        56.29,
+        12.44,
+        8.55,
+        6.34
+      ]
     },
     {
       "name": "현무",
@@ -12695,7 +13391,13 @@
       "source": "일일레이드 - 기억속 샴기르",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        61.23,
+        10.77,
+        11.23,
+        2.21
+      ]
     },
     {
       "name": "어린현무",
@@ -12738,7 +13440,13 @@
       "source": "일일레이드 - 기억속 샴기르",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        56.81,
+        9.86,
+        10.56,
+        2.21
+      ]
     },
     {
       "name": "풍백",
@@ -12781,7 +13489,13 @@
       "source": "일일레이드 - 기억속 샴기르",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        46.15,
+        9.61,
+        5.63,
+        7.67
+      ]
     },
     {
       "name": "어린풍백",
@@ -12824,7 +13538,13 @@
       "source": "일일레이드 - 기억속 샴기르",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        45.11,
+        8.82,
+        5.54,
+        7.41
+      ]
     },
     {
       "name": "청룡",
@@ -12867,7 +13587,13 @@
       "source": "일일레이드 - 기억속 샴기르",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        52.65,
+        10.79,
+        6.35,
+        6.37
+      ]
     },
     {
       "name": "어린청룡",
@@ -12910,7 +13636,13 @@
       "source": "일일레이드 - 기억속 샴기르",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        50.31,
+        10.19,
+        5.98,
+        5.85
+      ]
     },
     {
       "name": "주작",
@@ -12953,7 +13685,13 @@
       "source": "일일레이드 - 기억속 샴기르",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        48.75,
+        10.47,
+        6.02,
+        8.19
+      ]
     },
     {
       "name": "어린주작",
@@ -12996,7 +13734,13 @@
       "source": "일일레이드 - 기억속 샴기르",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        47.71,
+        9.92,
+        5.94,
+        7.67
+      ]
     },
     {
       "name": "푸타카",
@@ -13039,7 +13783,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        37.3,
+        6.34,
+        4.72,
+        7.7
+      ]
     },
     {
       "name": "푸모나스",
@@ -13082,7 +13832,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        77.62,
+        10.19,
+        12.44,
+        2.37
+      ]
     },
     {
       "name": "노보스",
@@ -13125,7 +13881,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        51.1,
+        9.43,
+        9.25,
+        3.5
+      ]
     },
     {
       "name": "판그라",
@@ -13168,7 +13930,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        48.36,
+        10.68,
+        6.36,
+        5.4
+      ]
     },
     {
       "name": "타노프스",
@@ -13211,7 +13979,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        38.43,
+        5.61,
+        7,
+        2.31
+      ]
     },
     {
       "name": "성호",
@@ -13253,7 +14027,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        55.32,
+        10.93,
+        6.61,
+        8.52
+      ]
     },
     {
       "name": "푸쿠",
@@ -13295,7 +14075,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        34.47,
+        7.52,
+        5.26,
+        5.85
+      ]
     },
     {
       "name": "철기돈",
@@ -13338,7 +14124,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        53.64,
+        10.48,
+        8.1,
+        5.64
+      ]
     },
     {
       "name": "키라비",
@@ -13381,7 +14173,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        38.1,
+        7.5,
+        4.8,
+        6.5
+      ]
     },
     {
       "name": "라스키",
@@ -13424,7 +14222,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        36.12,
+        7.05,
+        5.21,
+        5.69
+      ]
     },
     {
       "name": "기비노",
@@ -13467,7 +14271,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        51.12,
+        12.36,
+        6.51,
+        6.37
+      ]
     },
     {
       "name": "타로아",
@@ -13510,7 +14320,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        41.1,
+        9.41,
+        6.71,
+        4.3
+      ]
     },
     {
       "name": "자라북",
@@ -13553,7 +14369,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        41.3,
+        7.48,
+        10.18,
+        1.3
+      ]
     },
     {
       "name": "베노투리",
@@ -13596,7 +14418,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        57.75,
+        8.64,
+        11.8,
+        4.73
+      ]
     },
     {
       "name": "노투투",
@@ -13639,7 +14467,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        26.32,
+        4.81,
+        2.78,
+        5.92
+      ]
     },
     {
       "name": "돌꼬비",
@@ -13682,7 +14516,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        44.99,
+        9.25,
+        6.48,
+        6.49
+      ]
     },
     {
       "name": "푸이",
@@ -13725,7 +14565,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        58.2,
+        11.52,
+        8.28,
+        5.4
+      ]
     },
     {
       "name": "녹우리",
@@ -13768,7 +14614,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        42.5,
+        8.7,
+        6.72,
+        5.7
+      ]
     },
     {
       "name": "라그노스",
@@ -13811,7 +14663,13 @@
       "source": "운영지원",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        68.12,
+        12.84,
+        11.94,
+        2.37
+      ]
     },
     {
       "name": "샤크론",
@@ -13853,7 +14711,13 @@
       "source": "운영지원",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        57.72,
+        11.5,
+        6.96,
+        9.24
+      ]
     },
     {
       "name": "노로로크스",
@@ -13896,7 +14760,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        48.41,
+        7.87,
+        8.9,
+        7.01
+      ]
     },
     {
       "name": "아리노로스",
@@ -13939,7 +14809,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        59.88,
+        8.52,
+        10.25,
+        8.28
+      ]
     },
     {
       "name": "쥬키",
@@ -13982,7 +14858,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        36.7,
+        7.28,
+        4.4,
+        8.1
+      ]
     },
     {
       "name": "실버라곤",
@@ -14025,7 +14907,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        61.75,
+        12.03,
+        8.98,
+        9.23
+      ]
     },
     {
       "name": "만모드",
@@ -14067,7 +14955,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        71.12,
+        10.6,
+        13.53,
+        2.12
+      ]
     },
     {
       "name": "푸비토스",
@@ -14110,7 +15004,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        74.11,
+        12.66,
+        13.88,
+        3.37
+      ]
     },
     {
       "name": "누이",
@@ -14153,7 +15053,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        51.1,
+        9.1,
+        10.18,
+        2.9
+      ]
     },
     {
       "name": "돌가로스",
@@ -14195,7 +15101,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        60.12,
+        11.1,
+        11.97,
+        3.24
+      ]
     },
     {
       "name": "석화케스",
@@ -14238,7 +15150,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        49.08,
+        10.48,
+        6.59,
+        5.16
+      ]
     },
     {
       "name": "코발스",
@@ -14280,7 +15198,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        37.73,
+        5.68,
+        6.31,
+        2.17
+      ]
     },
     {
       "name": "도르도르",
@@ -14323,7 +15247,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        49.08,
+        10.06,
+        6.39,
+        7.8
+      ]
     },
     {
       "name": "바카우",
@@ -14366,7 +15296,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        34.47,
+        7.35,
+        5.25,
+        6.03
+      ]
     },
     {
       "name": "푸보",
@@ -14408,7 +15344,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        41.31,
+        7.71,
+        6.25,
+        3.87
+      ]
     },
     {
       "name": "고라돈",
@@ -14450,7 +15392,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        52.2,
+        10.72,
+        8.77,
+        5.16
+      ]
     },
     {
       "name": "블루카비트",
@@ -14493,7 +15441,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        40.1,
+        7.17,
+        5.01,
+        6.3
+      ]
     },
     {
       "name": "노스키",
@@ -14536,7 +15490,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        36.29,
+        6.25,
+        5.18,
+        6.71
+      ]
     },
     {
       "name": "프로돈",
@@ -14579,7 +15539,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        64.12,
+        12.79,
+        7.84,
+        7.37
+      ]
     },
     {
       "name": "푸고고",
@@ -14622,7 +15588,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        45.12,
+        8.73,
+        5.82,
+        6.74
+      ]
     },
     {
       "name": "기고아",
@@ -14665,7 +15637,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        40.7,
+        8.83,
+        6.85,
+        4.3
+      ]
     },
     {
       "name": "킹북이",
@@ -14708,7 +15686,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        39.3,
+        6.53,
+        10.85,
+        1.9
+      ]
     },
     {
       "name": "베톤",
@@ -14751,7 +15735,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        59.73,
+        8.47,
+        12.03,
+        4.07
+      ]
     },
     {
       "name": "포포",
@@ -14794,7 +15784,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        26.92,
+        5.13,
+        2.97,
+        6.07
+      ]
     },
     {
       "name": "꼬꼬미",
@@ -14837,7 +15833,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        45.21,
+        8.84,
+        6.47,
+        7.15
+      ]
     },
     {
       "name": "푸비",
@@ -14880,7 +15882,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        55.8,
+        11.28,
+        8.91,
+        5.4
+      ]
     },
     {
       "name": "푸우리",
@@ -14923,7 +15931,13 @@
       "source": "필드포획(골드볼라)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        43.5,
+        8.63,
+        5.21,
+        6.7
+      ]
     },
     {
       "name": "보르비스",
@@ -14966,7 +15980,13 @@
       "source": "도티의 눈을 뜨게하자",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        56.55,
+        11.09,
+        8.52,
+        8.19
+      ]
     },
     {
       "name": "링코",
@@ -15009,7 +16029,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        55.87,
+        10.61,
+        6.79,
+        8.87
+      ]
     },
     {
       "name": "다크론",
@@ -15052,7 +16078,13 @@
       "source": "D코스",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        54.6,
+        11.86,
+        7.11,
+        7.32
+      ]
     },
     {
       "name": "쿠로로",
@@ -15095,7 +16127,13 @@
       "source": "생성지원페트",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        51.63,
+        8.91,
+        6.84,
+        7.7
+      ]
     },
     {
       "name": "골드로비",
@@ -15138,7 +16176,13 @@
       "source": "하이하모의 말라가는 대지를 지켜라",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.62,
+        9.9,
+        6.53,
+        8.12
+      ]
     },
     {
       "name": "흑귀",
@@ -15181,7 +16225,13 @@
       "source": "다섯 석상의 비밀을 풀어라",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        55.77,
+        12.33,
+        8.82,
+        6.89
+      ]
     },
     {
       "name": "기로아치",
@@ -15224,7 +16274,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        60.88,
+        13.3,
+        8.2,
+        6.34
+      ]
     },
     {
       "name": "갈푸스",
@@ -15267,7 +16323,13 @@
       "source": "이상한 사랑 A",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.71,
+        10.69,
+        6.01,
+        7.93
+      ]
     },
     {
       "name": "볼프",
@@ -15310,7 +16372,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.62,
+        9.41,
+        6.71,
+        7.37
+      ]
     },
     {
       "name": "베르푸스",
@@ -15352,7 +16420,13 @@
       "source": "마함마의 증표",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        48.49,
+        10.21,
+        5.99,
+        8.19
+      ]
     },
     {
       "name": "울푸스",
@@ -15394,7 +16468,13 @@
       "source": "이상한 사랑 B",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        50.31,
+        10.01,
+        6.27,
+        7.93
+      ]
     },
     {
       "name": "피피루",
@@ -15437,7 +16517,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.03,
+        9.42,
+        6.11,
+        7.7
+      ]
     },
     {
       "name": "포루루",
@@ -15480,7 +16566,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        50.25,
+        9.94,
+        6,
+        7.93
+      ]
     },
     {
       "name": "오투투(진화)",
@@ -15523,7 +16615,13 @@
       "source": "카루타나 생성페트",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        32.9,
+        6.24,
+        4.98,
+        6.9
+      ]
     },
     {
       "name": "투투(진화)",
@@ -15566,7 +16664,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        31.53,
+        5.33,
+        3.65,
+        5.35
+      ]
     },
     {
       "name": "우푸(진화)",
@@ -15609,7 +16713,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        25.12,
+        4.93,
+        2.9,
+        5.62
+      ]
     },
     {
       "name": "푸푸(진화)",
@@ -15652,7 +16762,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        21.77,
+        4.15,
+        2.63,
+        4.87
+      ]
     },
     {
       "name": "노르노르(진화)",
@@ -15695,7 +16811,13 @@
       "source": "복권 1등 (마리너스)",
       "tier": "2등급",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        49.62,
+        10.46,
+        6.86,
+        8.37
+      ]
     },
     {
       "name": "고르고르(진화)",
@@ -15738,7 +16860,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        40,
+        8.52,
+        5.49,
+        6.61
+      ]
     },
     {
       "name": "베루루(진화)",
@@ -15781,7 +16909,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        43.12,
+        9.32,
+        6,
+        7.47
+      ]
     },
     {
       "name": "베르가(진화)",
@@ -15824,7 +16958,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.4,
+        9.54,
+        6.3,
+        7.56
+      ]
     },
     {
       "name": "부르돈(진화)",
@@ -15867,7 +17007,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        51.37,
+        11.68,
+        6.73,
+        7.12
+      ]
     },
     {
       "name": "반기노(진화)",
@@ -15909,7 +17055,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        53.69,
+        12.69,
+        7.78,
+        6.37
+      ]
     },
     {
       "name": "반보로(진화)",
@@ -15952,7 +17104,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        56.56,
+        12.92,
+        7.82,
+        6.88
+      ]
     },
     {
       "name": "얀기로(진화)",
@@ -15995,7 +17153,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        62.78,
+        13.65,
+        8.43,
+        7.39
+      ]
     },
     {
       "name": "리비노(진화)",
@@ -16037,7 +17201,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        48.07,
+        10.82,
+        7.06,
+        4.95
+      ]
     },
     {
       "name": "둠바로스",
@@ -16080,7 +17250,13 @@
       "source": "C코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        57.72,
+        12.51,
+        8.83,
+        6.36
+      ]
     },
     {
       "name": "샤베르",
@@ -16123,7 +17299,13 @@
       "source": "B코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        49.08,
+        10.06,
+        6.39,
+        7.8
+      ]
     },
     {
       "name": "킹고르",
@@ -16166,7 +17348,13 @@
       "source": "A코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        63.37,
+        12.64,
+        9.71,
+        5.87
+      ]
     },
     {
       "name": "카르기안",
@@ -16209,7 +17397,13 @@
       "source": "A코스",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        39.9,
+        6.46,
+        9.34,
+        3.3
+      ]
     },
     {
       "name": "타이혼",
@@ -16252,7 +17446,13 @@
       "source": "1등 복권(가우린)",
       "tier": "2등급",
       "ride": false,
-      "skillSlots": 7
+      "skillSlots": 7,
+      "preciseInitial": [
+        57.45,
+        11.76,
+        9.6,
+        10.95
+      ]
     },
     {
       "name": "토라",
@@ -16295,7 +17495,13 @@
       "source": "마함마의 증표",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.71,
+        9.67,
+        5.93,
+        7.93
+      ]
     },
     {
       "name": "페르페",
@@ -16338,7 +17544,13 @@
       "source": "이상한 사랑 B",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        49.79,
+        9.74,
+        6.23,
+        7.67
+      ]
     },
     {
       "name": "카르페",
@@ -16381,7 +17593,13 @@
       "source": "이상한 사랑 A",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.19,
+        10.41,
+        5.97,
+        7.67
+      ]
     },
     {
       "name": "테라탄",
@@ -16424,7 +17642,13 @@
       "source": "천상의 맛 구름솜사탕을 만들자",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        48.36,
+        10.03,
+        6.15,
+        8.28
+      ]
     },
     {
       "name": "카가로스",
@@ -16467,7 +17691,13 @@
       "source": "공간의 틈새를 막으러",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        57.59,
+        13.05,
+        7.44,
+        8.45
+      ]
     },
     {
       "name": "흑호",
@@ -16510,7 +17740,13 @@
       "source": "마리너스 목장의 의뢰",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        57.37,
+        11.69,
+        7.41,
+        9.87
+      ]
     },
     {
       "name": "청호",
@@ -16553,7 +17789,13 @@
       "source": "마리너스 목장의 의뢰",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        58.37,
+        12.71,
+        8.44,
+        7.87
+      ]
     },
     {
       "name": "황호",
@@ -16596,7 +17838,13 @@
       "source": "마리너스 목장의 의뢰",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        53.37,
+        11.08,
+        7.48,
+        8.12
+      ]
     },
     {
       "name": "이블티거",
@@ -16638,7 +17886,13 @@
       "source": "마리너스 목장의 의뢰",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        50.37,
+        11.41,
+        6.69,
+        7.37
+      ]
     },
     {
       "name": "사루나",
@@ -16681,7 +17935,13 @@
       "source": "빛의 대륙 하이하모를 찾아서",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        43.12,
+        8.41,
+        5.3,
+        9.08
+      ]
     },
     {
       "name": "발로스",
@@ -16724,7 +17984,13 @@
       "source": "다섯 석상의 비밀을 풀어라",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        45.21,
+        9.69,
+        6.33,
+        7.37
+      ]
     },
     {
       "name": "레피아",
@@ -16767,7 +18033,13 @@
       "source": "다섯 석상의 비밀을 풀어라",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        51.96,
+        11.07,
+        6.53,
+        7.8
+      ]
     },
     {
       "name": "데블로스",
@@ -16810,7 +18082,13 @@
       "source": "미선의 편지",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        45.87,
+        9.88,
+        5.72,
+        7.59
+      ]
     },
     {
       "name": "구루마루",
@@ -16853,7 +18131,13 @@
       "source": "미선의 편지",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        58.37,
+        12.91,
+        7.74,
+        8.37
+      ]
     },
     {
       "name": "그린고르",
@@ -16895,7 +18179,13 @@
       "source": "하이하모 신전으로",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        67.62,
+        11.2,
+        12.78,
+        2.62
+      ]
     },
     {
       "name": "크루거",
@@ -16938,7 +18228,13 @@
       "source": "1등 복권(스라인)",
       "tier": "2등급",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        59.12,
+        11.96,
+        7.46,
+        9.37
+      ]
     },
     {
       "name": "바우트",
@@ -16981,7 +18277,13 @@
       "source": "운영지원",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        67.62,
+        12.85,
+        12.18,
+        2.62
+      ]
     },
     {
       "name": "부루마루",
@@ -17024,7 +18326,13 @@
       "source": "운영지원",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        60.12,
+        13.18,
+        7.55,
+        8.12
+      ]
     },
     {
       "name": "아이스만모",
@@ -17067,7 +18375,13 @@
       "source": "운영지원",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        70.2,
+        11.69,
+        10.61,
+        3
+      ]
     },
     {
       "name": "히파",
@@ -17110,7 +18424,13 @@
       "source": "운영지원",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        51.24,
+        10.57,
+        5.61,
+        10.44
+      ]
     },
     {
       "name": "카우거",
@@ -17153,7 +18473,13 @@
       "source": "운영지원",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        55.37,
+        11.61,
+        7.34,
+        8.87
+      ]
     },
     {
       "name": "타이판",
@@ -17196,7 +18522,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        50.25,
+        10.62,
+        6.48,
+        6.78
+      ]
     },
     {
       "name": "레이론",
@@ -17239,7 +18571,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        54.87,
+        11.61,
+        8.24,
+        6.37
+      ]
     },
     {
       "name": "쿠팡",
@@ -17282,7 +18620,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        43.45,
+        9.04,
+        6.67,
+        7.59
+      ]
     },
     {
       "name": "슈우",
@@ -17325,7 +18669,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.12,
+        9.14,
+        6.44,
+        7.37
+      ]
     },
     {
       "name": "스노밍코",
@@ -17368,7 +18718,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        53.4,
+        10.17,
+        6.28,
+        8.52
+      ]
     },
     {
       "name": "킹크랩",
@@ -17411,7 +18767,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        61.52,
+        11.56,
+        10.94,
+        2.18
+      ]
     },
     {
       "name": "크랩",
@@ -17453,7 +18815,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        64.28,
+        10.74,
+        11.16,
+        1.95
+      ]
     },
     {
       "name": "지라크",
@@ -17495,7 +18863,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        48.87,
+        10.64,
+        7.33,
+        6.32
+      ]
     },
     {
       "name": "포레스트크랩",
@@ -17581,7 +18955,13 @@
       "source": "하이하모(300 460)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        54.87,
+        10.66,
+        8.19,
+        7.37
+      ]
     },
     {
       "name": "피피아",
@@ -17624,7 +19004,13 @@
       "source": "하이하모(324 552)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        45.88,
+        9.17,
+        6.06,
+        7.7
+      ]
     },
     {
       "name": "포루나",
@@ -17667,7 +19053,13 @@
       "source": "하이하모(145 826)",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        49.1,
+        9.68,
+        5.96,
+        7.93
+      ]
     },
     {
       "name": "노스토로스",
@@ -17710,7 +19102,13 @@
       "source": "C코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        43.35,
+        8.28,
+        7.25,
+        6.55
+      ]
     },
     {
       "name": "코리토르스",
@@ -17753,7 +19151,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        36,
+        5.93,
+        6.27,
+        4.65
+      ]
     },
     {
       "name": "란베르스",
@@ -17796,7 +19200,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        41.89,
+        6.8,
+        6.8,
+        5.56
+      ]
     },
     {
       "name": "바로로크스",
@@ -17839,7 +19249,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        41.47,
+        6.67,
+        7.66,
+        4.95
+      ]
     },
     {
       "name": "타르노로스",
@@ -17882,7 +19298,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        53.7,
+        7.71,
+        8.53,
+        5.63
+      ]
     },
     {
       "name": "다이노로스",
@@ -17925,7 +19347,13 @@
       "source": "A코스",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        57.96,
+        8.57,
+        9,
+        6.36
+      ]
     },
     {
       "name": "아리노스",
@@ -17968,7 +19396,13 @@
       "source": "B코스",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        63.31,
+        8.83,
+        10.47,
+        6.11
+      ]
     },
     {
       "name": "아토라지",
@@ -18010,7 +19444,13 @@
       "source": "C코스",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        49.9,
+        6.59,
+        7.49,
+        5.1
+      ]
     },
     {
       "name": "스토라지",
@@ -18053,7 +19493,13 @@
       "source": "D코스",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        48.82,
+        6.65,
+        8.16,
+        4.93
+      ]
     },
     {
       "name": "라이혼",
@@ -18096,7 +19542,13 @@
       "source": "개인듀얼 보상",
       "tier": "2등급",
       "ride": false,
-      "skillSlots": 7
+      "skillSlots": 7,
+      "preciseInitial": [
+        57.45,
+        10.98,
+        10.98,
+        10.35
+      ]
     },
     {
       "name": "라나프",
@@ -18139,7 +19591,13 @@
       "source": "모험의 시작",
       "tier": "2등급",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        50.82,
+        10.4,
+        9.65,
+        9.38
+      ]
     },
     {
       "name": "모나시프",
@@ -18181,7 +19639,13 @@
       "source": "채석장의 비밀",
       "tier": "2등급",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        49.62,
+        8.68,
+        8.9,
+        8.12
+      ]
     },
     {
       "name": "프이토",
@@ -18224,7 +19688,13 @@
       "source": "복권 1등 (쟈쟈)",
       "tier": "2등급",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.71,
+        8.7,
+        9.4,
+        8.71
+      ]
     },
     {
       "name": "골로스",
@@ -18267,7 +19737,13 @@
       "source": "환생 이벤트(5환)",
       "tier": "1등급",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        60.37,
+        13.24,
+        8.51,
+        7.37
+      ]
     },
     {
       "name": "모가로스",
@@ -18310,7 +19786,13 @@
       "source": "퀴즈도장(마리너스)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        56.37,
+        13.18,
+        8.68,
+        8.12
+      ]
     },
     {
       "name": "오르곤",
@@ -18353,7 +19835,13 @@
       "source": "퀴즈도장(카루타나)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        65.39,
+        13.53,
+        8.62,
+        6.63
+      ]
     },
     {
       "name": "오가로스",
@@ -18396,7 +19884,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        55.8,
+        11.83,
+        9.89,
+        5.88
+      ]
     },
     {
       "name": "카키",
@@ -18439,7 +19933,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        33.3,
+        6.61,
+        4.45,
+        7.5
+      ]
     },
     {
       "name": "호르쿠",
@@ -18482,7 +19982,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        32.13,
+        5.67,
+        4.21,
+        6.93
+      ]
     },
     {
       "name": "쿠쿠",
@@ -18524,7 +20030,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        34.3,
+        6.44,
+        4.28,
+        8.1
+      ]
     },
     {
       "name": "타키",
@@ -18567,7 +20079,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        29.66,
+        5.48,
+        3.65,
+        6.71
+      ]
     },
     {
       "name": "도라비스",
@@ -18609,7 +20127,13 @@
       "source": "황금색 페트(반복)",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        47.26,
+        9.67,
+        6.15,
+        8.62
+      ]
     },
     {
       "name": "포이비스",
@@ -18652,7 +20176,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        54.36,
+        11.04,
+        8.23,
+        8.76
+      ]
     },
     {
       "name": "카르곤",
@@ -18695,7 +20225,13 @@
       "source": "환생 이벤트",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        51.35,
+        10.84,
+        6.63,
+        8.97
+      ]
     },
     {
       "name": "테라곤",
@@ -18738,7 +20274,13 @@
       "source": "C코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        55.48,
+        11.37,
+        7.48,
+        9.85
+      ]
     },
     {
       "name": "만모로스",
@@ -18781,7 +20323,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        74.87,
+        10.58,
+        11.93,
+        2.62
+      ]
     },
     {
       "name": "마모나스",
@@ -18824,7 +20372,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        77.09,
+        10.53,
+        13.11,
+        2.73
+      ]
     },
     {
       "name": "만모르",
@@ -18867,7 +20421,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        68.28,
+        11.02,
+        11.67,
+        2.52
+      ]
     },
     {
       "name": "만모",
@@ -18910,7 +20470,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        78.43,
+        10.94,
+        14.1,
+        2.83
+      ]
     },
     {
       "name": "프리토스",
@@ -18953,7 +20519,13 @@
       "source": "복권 1등 (샴기르)",
       "tier": "2등급",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        76.58,
+        13.32,
+        13.06,
+        4.34
+      ]
     },
     {
       "name": "스텐토스",
@@ -18996,7 +20568,13 @@
       "source": "A코스",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        79.1,
+        12.81,
+        13.32,
+        2.66
+      ]
     },
     {
       "name": "프라키토스",
@@ -19039,7 +20617,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        57.72,
+        11.33,
+        9.82,
+        2.52
+      ]
     },
     {
       "name": "다이노스",
@@ -19082,7 +20666,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        74.75,
+        11.45,
+        12.62,
+        2.99
+      ]
     },
     {
       "name": "다이노",
@@ -19125,7 +20715,13 @@
       "source": "B코스",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        62.62,
+        11,
+        11.68,
+        2.62
+      ]
     },
     {
       "name": "투이",
@@ -19168,7 +20764,13 @@
       "source": "환생 이벤트",
       "tier": "2등급",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        63.24,
+        11.34,
+        11.13,
+        3.24
+      ]
     },
     {
       "name": "씨보스",
@@ -19211,7 +20813,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        56.8,
+        9.18,
+        10.12,
+        3.04
+      ]
     },
     {
       "name": "무이",
@@ -19253,7 +20861,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        56.1,
+        8.76,
+        9.3,
+        2.9
+      ]
     },
     {
       "name": "루이",
@@ -19296,7 +20910,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        58.63,
+        9.99,
+        10.19,
+        3.19
+      ]
     },
     {
       "name": "가가로스",
@@ -19339,7 +20959,13 @@
       "source": "B코스",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        62.79,
+        13.59,
+        10.54,
+        5.07
+      ]
     },
     {
       "name": "비트로스",
@@ -19382,7 +21008,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        59.12,
+        12.34,
+        10.09,
+        6.37
+      ]
     },
     {
       "name": "메가로스",
@@ -19425,7 +21057,13 @@
       "source": "환생 이벤트",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        58.92,
+        11.73,
+        11.08,
+        4.2
+      ]
     },
     {
       "name": "기가로스",
@@ -19468,7 +21106,13 @@
       "source": "C코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        66.5,
+        13.11,
+        12.6,
+        6.86
+      ]
     },
     {
       "name": "판지",
@@ -19511,7 +21155,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        32.72,
+        6.37,
+        4.5,
+        3.28
+      ]
     },
     {
       "name": "쟈그",
@@ -19553,7 +21203,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        48.41,
+        9.36,
+        5.84,
+        4.71
+      ]
     },
     {
       "name": "쟈그라",
@@ -19596,7 +21252,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        43.67,
+        9.13,
+        5.76,
+        4.95
+      ]
     },
     {
       "name": "고반케스",
@@ -19639,7 +21301,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        36.27,
+        7.33,
+        5.06,
+        3.69
+      ]
     },
     {
       "name": "토르프스",
@@ -19681,7 +21349,13 @@
       "source": "A코스",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        26.95,
+        4.28,
+        5.54,
+        1.89
+      ]
     },
     {
       "name": "토리케라",
@@ -19724,7 +21398,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        35.19,
+        5.33,
+        6.95,
+        2.61
+      ]
     },
     {
       "name": "펜타스",
@@ -19767,7 +21447,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        31.92,
+        4.6,
+        6.18,
+        2.48
+      ]
     },
     {
       "name": "토리노프스",
@@ -19810,7 +21496,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        23.34,
+        3.89,
+        4.43,
+        1.98
+      ]
     },
     {
       "name": "노르노르",
@@ -19853,7 +21545,13 @@
       "source": "복권 1등 (마리너스)",
       "tier": "2등급",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        49.37,
+        10.21,
+        6.84,
+        8.37
+      ]
     },
     {
       "name": "고르고르",
@@ -19896,7 +21594,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        38.95,
+        8.47,
+        5.26,
+        6.61
+      ]
     },
     {
       "name": "베루루",
@@ -19939,7 +21643,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        42.89,
+        9.29,
+        5.77,
+        7.47
+      ]
     },
     {
       "name": "베르가",
@@ -19982,7 +21692,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.16,
+        9.53,
+        6.29,
+        7.32
+      ]
     },
     {
       "name": "카우",
@@ -20025,7 +21741,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        27.79,
+        5.73,
+        5.73,
+        5.18
+      ]
     },
     {
       "name": "바우",
@@ -20068,7 +21790,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        28.3,
+        5.71,
+        5.25,
+        5.52
+      ]
     },
     {
       "name": "바카",
@@ -20111,7 +21839,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        34.3,
+        7.31,
+        6.05,
+        6.3
+      ]
     },
     {
       "name": "카쿠",
@@ -20154,7 +21888,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        31.95,
+        5.74,
+        5.74,
+        5.13
+      ]
     },
     {
       "name": "부르보",
@@ -20197,7 +21937,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        38.5,
+        7.26,
+        7.08,
+        4.9
+      ]
     },
     {
       "name": "토로쟈",
@@ -20240,7 +21986,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        41.68,
+        7.85,
+        7.67,
+        4.3
+      ]
     },
     {
       "name": "쿠보",
@@ -20283,7 +22035,13 @@
       "source": "베르가 포획",
       "tier": "2등급",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        51.12,
+        9.41,
+        9.41,
+        5.37
+      ]
     },
     {
       "name": "포보",
@@ -20326,7 +22084,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        39.23,
+        6.59,
+        7.11,
+        3.51
+      ]
     },
     {
       "name": "휴보",
@@ -20369,7 +22133,13 @@
       "source": "황금색 페트",
       "tier": "2등급",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        36.81,
+        7.11,
+        6.62,
+        3.69
+      ]
     },
     {
       "name": "고르고",
@@ -20412,7 +22182,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        54.67,
+        11.11,
+        8.68,
+        6.88
+      ]
     },
     {
       "name": "투르돈",
@@ -20455,7 +22231,13 @@
       "source": "D코스",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        57.64,
+        10.94,
+        8.99,
+        6.61
+      ]
     },
     {
       "name": "기라돈",
@@ -20498,7 +22280,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        51.72,
+        10.21,
+        8.27,
+        5.64
+      ]
     },
     {
       "name": "고르돈",
@@ -20540,7 +22328,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        51,
+        10.23,
+        8.71,
+        5.4
+      ]
     },
     {
       "name": "골드카비트",
@@ -20582,7 +22376,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        30.3,
+        5.74,
+        5.05,
+        6.17
+      ]
     },
     {
       "name": "큐이",
@@ -20625,7 +22425,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        21.82,
+        4.48,
+        4.07,
+        4.42
+      ]
     },
     {
       "name": "케이비",
@@ -20668,7 +22474,13 @@
       "source": "마리너스 생성페트",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        30.5,
+        5.84,
+        5.66,
+        6.5
+      ]
     },
     {
       "name": "카비트",
@@ -20711,7 +22523,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        27.45,
+        5.26,
+        5.26,
+        5.67
+      ]
     },
     {
       "name": "리스키",
@@ -20754,7 +22572,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        28.47,
+        4.85,
+        5.01,
+        4.67
+      ]
     },
     {
       "name": "포링",
@@ -20797,7 +22621,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        29.61,
+        5.29,
+        5.13,
+        5.13
+      ]
     },
     {
       "name": "쿠쿠르",
@@ -20840,7 +22670,13 @@
       "source": "쟈쟈 생성페트",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        34.1,
+        5.7,
+        5.52,
+        5.7
+      ]
     },
     {
       "name": "쿠링",
@@ -20883,7 +22719,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        31.82,
+        5.43,
+        5.78,
+        5.03
+      ]
     },
     {
       "name": "부르돈",
@@ -20926,7 +22768,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        51.12,
+        11.43,
+        6.7,
+        7.12
+      ]
     },
     {
       "name": "반기노",
@@ -20968,7 +22816,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        52.39,
+        12.64,
+        7.49,
+        6.37
+      ]
     },
     {
       "name": "반보로",
@@ -21011,7 +22865,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        55.21,
+        12.87,
+        7.52,
+        6.88
+      ]
     },
     {
       "name": "얀기로",
@@ -21054,7 +22914,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        61.33,
+        13.6,
+        8.38,
+        7.1
+      ]
     },
     {
       "name": "리비노",
@@ -21096,7 +22962,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        46.75,
+        10.57,
+        7.01,
+        4.73
+      ]
     },
     {
       "name": "쿠타스",
@@ -21139,7 +23011,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        44.99,
+        7.88,
+        9.26,
+        2.31
+      ]
     },
     {
       "name": "아이카스",
@@ -21182,7 +23060,13 @@
       "source": "D코스",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        44.33,
+        6.89,
+        10.45,
+        2.31
+      ]
     },
     {
       "name": "램가스",
@@ -21225,7 +23109,13 @@
       "source": "미선의 편지",
       "tier": "2등급",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        37.5,
+        7.86,
+        10.74,
+        2.9
+      ]
     },
     {
       "name": "로기안",
@@ -21268,7 +23158,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        45.19,
+        7.64,
+        11.16,
+        2.41
+      ]
     },
     {
       "name": "코로카스",
@@ -21311,7 +23207,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        34.59,
+        6.16,
+        8.15,
+        1.95
+      ]
     },
     {
       "name": "쿠카스",
@@ -21354,7 +23256,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        43.23,
+        7.32,
+        10.88,
+        2.09
+      ]
     },
     {
       "name": "카타르카스",
@@ -21396,7 +23304,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        44.11,
+        7.79,
+        11.15,
+        2.31
+      ]
     },
     {
       "name": "루니",
@@ -21438,7 +23352,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        42.57,
+        7.59,
+        7.99,
+        5.83
+      ]
     },
     {
       "name": "토루루",
@@ -21481,7 +23401,13 @@
       "source": "D코스",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 4
+      "skillSlots": 4,
+      "preciseInitial": [
+        37.14,
+        6.74,
+        6.56,
+        5.6
+      ]
     },
     {
       "name": "후바바",
@@ -21524,7 +23450,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        45.48,
+        8.41,
+        7.33,
+        7.56
+      ]
     },
     {
       "name": "라고고",
@@ -21566,7 +23498,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        44.04,
+        8.53,
+        7.29,
+        7.01
+      ]
     },
     {
       "name": "보크곤",
@@ -21609,7 +23547,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        34.86,
+        7.16,
+        5.79,
+        5.03
+      ]
     },
     {
       "name": "다고스",
@@ -21652,7 +23596,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        35.19,
+        6.83,
+        5.7,
+        3.87
+      ]
     },
     {
       "name": "타로곤",
@@ -21695,7 +23645,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        32.21,
+        6.3,
+        5.84,
+        3.65
+      ]
     },
     {
       "name": "네고스",
@@ -21738,7 +23694,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        34.65,
+        6.99,
+        5.7,
+        3.87
+      ]
     },
     {
       "name": "아고아",
@@ -21781,7 +23743,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        38.5,
+        8.34,
+        6,
+        4.9
+      ]
     },
     {
       "name": "돌북이",
@@ -21824,7 +23792,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        35.9,
+        6.2,
+        10.16,
+        1.7
+      ]
     },
     {
       "name": "깡북이",
@@ -21867,7 +23841,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        21.06,
+        3.89,
+        5.18,
+        1.74
+      ]
     },
     {
       "name": "북이",
@@ -21910,7 +23890,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        23.73,
+        4.25,
+        6.27,
+        1.75
+      ]
     },
     {
       "name": "노북이",
@@ -21953,7 +23939,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        24.15,
+        4.12,
+        6.14,
+        1.89
+      ]
     },
     {
       "name": "베로포리",
@@ -21996,7 +23988,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        47.41,
+        7.76,
+        9.14,
+        4.29
+      ]
     },
     {
       "name": "베로보크",
@@ -22039,7 +24037,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        49.56,
+        7.22,
+        9.71,
+        4.25
+      ]
     },
     {
       "name": "베로로크",
@@ -22082,7 +24086,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        40.18,
+        5.96,
+        8.18,
+        3.32
+      ]
     },
     {
       "name": "베론",
@@ -22124,7 +24134,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        51.72,
+        7.53,
+        9.9,
+        4.68
+      ]
     },
     {
       "name": "오투투",
@@ -22167,7 +24183,13 @@
       "source": "카루타나 생성페트",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        32.3,
+        6.01,
+        4.75,
+        6.7
+      ]
     },
     {
       "name": "투투",
@@ -22210,7 +24232,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        30.51,
+        5.13,
+        3.6,
+        5.18
+      ]
     },
     {
       "name": "우푸",
@@ -22253,7 +24281,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        24.67,
+        4.75,
+        2.73,
+        5.47
+      ]
     },
     {
       "name": "푸푸",
@@ -22296,7 +24330,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        20.99,
+        4,
+        2.6,
+        4.74
+      ]
     },
     {
       "name": "꼬꼬비",
@@ -22339,7 +24379,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        29.2,
+        5.4,
+        4.54,
+        5.04
+      ]
     },
     {
       "name": "꼬비오",
@@ -22381,7 +24427,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        34.11,
+        5.96,
+        5.31,
+        6.21
+      ]
     },
     {
       "name": "꼬비",
@@ -22424,7 +24476,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        36.5,
+        6.57,
+        5.85,
+        6.3
+      ]
     },
     {
       "name": "꼬미",
@@ -22467,7 +24525,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        40.81,
+        7.44,
+        6.25,
+        6.71
+      ]
     },
     {
       "name": "얼룩부이비",
@@ -22509,7 +24573,13 @@
       "source": "퀴즈도장(카루타나)",
       "tier": "2등급",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        51.86,
+        9.45,
+        8.63,
+        5.63
+      ]
     },
     {
       "name": "부이비",
@@ -22552,7 +24622,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        36.24,
+        7.14,
+        5.26,
+        3.6
+      ]
     },
     {
       "name": "부이",
@@ -22595,7 +24671,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        59.29,
+        8.97,
+        7.58,
+        3.85
+      ]
     },
     {
       "name": "골드부비",
@@ -22638,7 +24720,13 @@
       "source": "퀴즈도장(마리너스)",
       "tier": "2등급",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        57.12,
+        10.6,
+        10.83,
+        4.12
+      ]
     },
     {
       "name": "부비",
@@ -22681,7 +24769,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 5
+      "skillSlots": 5,
+      "preciseInitial": [
+        39.52,
+        6.25,
+        5.44,
+        2.47
+      ]
     },
     {
       "name": "실버우리",
@@ -22724,7 +24818,13 @@
       "source": "복권 1등 (카루타나)",
       "tier": "2등급",
       "ride": true,
-      "skillSlots": 7
+      "skillSlots": 7,
+      "preciseInitial": [
+        38.5,
+        6.71,
+        7.07,
+        6.3
+      ]
     },
     {
       "name": "불그리",
@@ -22767,7 +24867,13 @@
       "source": "B코스",
       "tier": "일반",
       "ride": false,
-      "skillSlots": 7
+      "skillSlots": 7,
+      "preciseInitial": [
+        20.65,
+        3.46,
+        3.1,
+        3.75
+      ]
     },
     {
       "name": "환생얼룩우리",
@@ -22810,7 +24916,13 @@
       "source": "환생 이벤트",
       "tier": "1등급",
       "ride": true,
-      "skillSlots": 7
+      "skillSlots": 7,
+      "preciseInitial": [
+        56.62,
+        9.13,
+        9.8,
+        7.12
+      ]
     },
     {
       "name": "얼룩우리",
@@ -22852,7 +24964,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        26.47,
+        4.73,
+        4.46,
+        3.22
+      ]
     },
     {
       "name": "두리",
@@ -22895,7 +25013,13 @@
       "source": "샴기르 생성페트",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        35.3,
+        6.61,
+        4.45,
+        5.5
+      ]
     },
     {
       "name": "우리",
@@ -22938,7 +25062,13 @@
       "source": "필드포획",
       "tier": "일반",
       "ride": true,
-      "skillSlots": 6
+      "skillSlots": 6,
+      "preciseInitial": [
+        16.85,
+        2.64,
+        2.64,
+        2.95
+      ]
     }
   ]
 }
