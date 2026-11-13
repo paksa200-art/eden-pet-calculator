@@ -1,0 +1,867 @@
+{
+  "source": "https://toinfo.work/pet",
+  "snapshot": "provided-first-page",
+  "complete": false,
+  "pets": [
+    {
+      "name": "실버로크스",
+      "toinfoId": "128552",
+      "toinfoInitial": [
+        62,
+        10,
+        10,
+        8
+      ],
+      "toinfoGrowth": [
+        10.85,
+        1.83,
+        1.8,
+        1.46
+      ],
+      "hp": [
+        62,
+        10.85
+      ],
+      "atk": [
+        10,
+        1.83
+      ],
+      "def": [
+        10,
+        1.8
+      ],
+      "agi": [
+        8,
+        1.46
+      ],
+      "baselineVerified": false,
+      "total": 5.09,
+      "attrs": {
+        "수": 5,
+        "화": 5
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/552/128/a141e1b8963768aa9b74f3500eef8b6a.gif",
+      "source": "필드포획(골드볼라)",
+      "tier": "일반",
+      "ride": false,
+      "skillSlots": 5
+    },
+    {
+      "name": "부라키오스",
+      "toinfoId": "128549",
+      "toinfoInitial": [
+        68,
+        11,
+        13,
+        3
+      ],
+      "toinfoGrowth": [
+        11.98,
+        2.0,
+        2.28,
+        0.59
+      ],
+      "hp": [
+        68,
+        11.98
+      ],
+      "atk": [
+        11,
+        2.0
+      ],
+      "def": [
+        13,
+        2.28
+      ],
+      "agi": [
+        3,
+        0.59
+      ],
+      "baselineVerified": false,
+      "total": 4.87,
+      "attrs": {
+        "지": 8,
+        "풍": 2
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/549/128/2f47f7773dae2c41482ffdc71fa76542.gif",
+      "source": "필드포획(골드볼라)",
+      "tier": "일반",
+      "ride": false,
+      "skillSlots": 5
+    },
+    {
+      "name": "라가로스",
+      "toinfoId": "128546",
+      "toinfoInitial": [
+        61,
+        10,
+        11,
+        2
+      ],
+      "toinfoGrowth": [
+        11.71,
+        2.01,
+        2.19,
+        0.47
+      ],
+      "hp": [
+        61,
+        11.71
+      ],
+      "atk": [
+        10,
+        2.01
+      ],
+      "def": [
+        11,
+        2.19
+      ],
+      "agi": [
+        2,
+        0.47
+      ],
+      "baselineVerified": false,
+      "total": 4.67,
+      "attrs": {
+        "지": 7,
+        "수": 3
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/546/128/1a0779f6a50ed76419eb5a8c892386ca.gif",
+      "source": "필드포획(골드볼라)",
+      "tier": "일반",
+      "ride": false,
+      "skillSlots": 4
+    },
+    {
+      "name": "다리노스",
+      "toinfoId": "128541",
+      "toinfoInitial": [
+        58,
+        9,
+        9,
+        7
+      ],
+      "toinfoGrowth": [
+        11.03,
+        1.72,
+        1.88,
+        1.5
+      ],
+      "hp": [
+        58,
+        11.03
+      ],
+      "atk": [
+        9,
+        1.72
+      ],
+      "def": [
+        9,
+        1.88
+      ],
+      "agi": [
+        7,
+        1.5
+      ],
+      "baselineVerified": false,
+      "total": 5.1,
+      "attrs": {
+        "화": 6,
+        "풍": 4
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/541/128/727219a7eeb8df1d0a20444a051fd841.gif",
+      "source": "필드포획(골드볼라)",
+      "tier": "일반",
+      "ride": false,
+      "skillSlots": 4
+    },
+    {
+      "name": "칼로스",
+      "toinfoId": "128538",
+      "toinfoInitial": [
+        59,
+        12,
+        7,
+        8
+      ],
+      "toinfoGrowth": [
+        10.33,
+        2.25,
+        1.35,
+        1.46
+      ],
+      "hp": [
+        59,
+        10.33
+      ],
+      "atk": [
+        12,
+        2.25
+      ],
+      "def": [
+        7,
+        1.35
+      ],
+      "agi": [
+        8,
+        1.46
+      ],
+      "baselineVerified": false,
+      "total": 5.06,
+      "attrs": {
+        "화": 4,
+        "풍": 6
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/538/128/f4fb4f967ea73d9243b1fbda3708eb44.gif",
+      "source": "필드포획(골드볼라)",
+      "tier": "일반",
+      "ride": false,
+      "skillSlots": 6
+    },
+    {
+      "name": "푸테라",
+      "toinfoId": "128532",
+      "toinfoInitial": [
+        62,
+        12,
+        8,
+        10
+      ],
+      "toinfoGrowth": [
+        10.51,
+        2.05,
+        1.35,
+        1.67
+      ],
+      "hp": [
+        62,
+        10.51
+      ],
+      "atk": [
+        12,
+        2.05
+      ],
+      "def": [
+        8,
+        1.35
+      ],
+      "agi": [
+        10,
+        1.67
+      ],
+      "baselineVerified": false,
+      "total": 5.07,
+      "attrs": {
+        "수": 8,
+        "화": 2
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/532/128/40cce57b5bda2b3a891bce8ef3e22f30.gif",
+      "source": "필드포획(골드볼라)",
+      "tier": "일반",
+      "ride": false,
+      "skillSlots": 5
+    },
+    {
+      "name": "푸타푸타",
+      "toinfoId": "128084",
+      "toinfoInitial": [
+        10,
+        6,
+        9,
+        50
+      ],
+      "toinfoGrowth": [
+        10.02,
+        2.02,
+        1.22,
+        1.86
+      ],
+      "hp": [
+        10,
+        10.02
+      ],
+      "atk": [
+        6,
+        2.02
+      ],
+      "def": [
+        9,
+        1.22
+      ],
+      "agi": [
+        50,
+        1.86
+      ],
+      "baselineVerified": false,
+      "total": 5.1,
+      "attrs": {
+        "지": 6,
+        "풍": 4
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/084/128/723fe1a7774ff0f0e292a0c0c484b3a5.gif",
+      "source": "일일레이드 - 교만의 방",
+      "tier": "일반",
+      "ride": false,
+      "skillSlots": 5
+    },
+    {
+      "name": "테로노돈",
+      "toinfoId": "128079",
+      "toinfoInitial": [
+        9,
+        5,
+        9,
+        49
+      ],
+      "toinfoGrowth": [
+        10.17,
+        2.02,
+        1.18,
+        1.86
+      ],
+      "hp": [
+        9,
+        10.17
+      ],
+      "atk": [
+        5,
+        2.02
+      ],
+      "def": [
+        9,
+        1.18
+      ],
+      "agi": [
+        49,
+        1.86
+      ],
+      "baselineVerified": false,
+      "total": 5.06,
+      "attrs": {
+        "수": 10
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/079/128/21e643b5505737551ec931c43e3f591d.gif",
+      "source": "일일레이드 - 교만의 방",
+      "tier": "일반",
+      "ride": false,
+      "skillSlots": 5
+    },
+    {
+      "name": "아르마루",
+      "toinfoId": "128076",
+      "toinfoInitial": [
+        12,
+        7,
+        7,
+        57
+      ],
+      "toinfoGrowth": [
+        10.44,
+        2.26,
+        1.4,
+        1.43
+      ],
+      "hp": [
+        12,
+        10.44
+      ],
+      "atk": [
+        7,
+        2.26
+      ],
+      "def": [
+        7,
+        1.4
+      ],
+      "agi": [
+        57,
+        1.43
+      ],
+      "baselineVerified": false,
+      "total": 5.08,
+      "attrs": {
+        "지": 5,
+        "수": 5
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/076/128/e3d2169ebebbdaad31450821a28f95bc.gif",
+      "source": "일일레이드 - 편견의 방",
+      "tier": "일반",
+      "ride": false,
+      "skillSlots": 5
+    },
+    {
+      "name": "크로아치",
+      "toinfoId": "128073",
+      "toinfoInitial": [
+        12,
+        8,
+        6,
+        57
+      ],
+      "toinfoGrowth": [
+        10.57,
+        2.34,
+        1.58,
+        1.16
+      ],
+      "hp": [
+        12,
+        10.57
+      ],
+      "atk": [
+        8,
+        2.34
+      ],
+      "def": [
+        6,
+        1.58
+      ],
+      "agi": [
+        57,
+        1.16
+      ],
+      "baselineVerified": false,
+      "total": 5.08,
+      "attrs": {
+        "지": 6,
+        "풍": 4
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/073/128/cf012b450e097303bce3b5a2ae91dbb7.gif",
+      "source": "일일레이드 - 편견의 방",
+      "tier": "일반",
+      "ride": false,
+      "skillSlots": 5
+    },
+    {
+      "name": "라그노스",
+      "toinfoId": "128070",
+      "toinfoInitial": [
+        13,
+        11,
+        2,
+        69
+      ],
+      "toinfoGrowth": [
+        12.07,
+        2.23,
+        2.09,
+        0.41
+      ],
+      "hp": [
+        13,
+        12.07
+      ],
+      "atk": [
+        11,
+        2.23
+      ],
+      "def": [
+        2,
+        2.09
+      ],
+      "agi": [
+        69,
+        0.41
+      ],
+      "baselineVerified": false,
+      "total": 4.78,
+      "attrs": {
+        "지": 8,
+        "수": 2
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/070/128/aea7ac2975dcda56f395762b48fcec64.gif",
+      "source": "운영지원",
+      "tier": "일반",
+      "ride": true,
+      "skillSlots": 6
+    },
+    {
+      "name": "카우거",
+      "toinfoId": "128067",
+      "toinfoInitial": [
+        11,
+        7,
+        8,
+        56
+      ],
+      "toinfoGrowth": [
+        10.31,
+        2.16,
+        1.35,
+        1.62
+      ],
+      "hp": [
+        11,
+        10.31
+      ],
+      "atk": [
+        7,
+        2.16
+      ],
+      "def": [
+        8,
+        1.35
+      ],
+      "agi": [
+        56,
+        1.62
+      ],
+      "baselineVerified": false,
+      "total": 5.13,
+      "attrs": {
+        "지": 7,
+        "풍": 3
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/067/128/a001b738b711daf0f32fc587c1ca7edc.gif",
+      "source": "운영지원",
+      "tier": "일반",
+      "ride": true,
+      "skillSlots": 5
+    },
+    {
+      "name": "히파",
+      "toinfoId": "128064",
+      "toinfoInitial": [
+        10,
+        5,
+        10,
+        52
+      ],
+      "toinfoGrowth": [
+        9.94,
+        2.01,
+        1.07,
+        2.02
+      ],
+      "hp": [
+        10,
+        9.94
+      ],
+      "atk": [
+        5,
+        2.01
+      ],
+      "def": [
+        10,
+        1.07
+      ],
+      "agi": [
+        52,
+        2.02
+      ],
+      "baselineVerified": false,
+      "total": 5.11,
+      "attrs": {
+        "화": 5,
+        "풍": 5
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/064/128/f7107b10e5cb5f9366343876b36fe704.gif",
+      "source": "운영지원",
+      "tier": "일반",
+      "ride": true,
+      "skillSlots": 5
+    },
+    {
+      "name": "아이스만모",
+      "toinfoId": "128060",
+      "toinfoInitial": [
+        11,
+        11,
+        3,
+        71
+      ],
+      "toinfoGrowth": [
+        12.98,
+        2.13,
+        2.02,
+        0.54
+      ],
+      "hp": [
+        11,
+        12.98
+      ],
+      "atk": [
+        11,
+        2.13
+      ],
+      "def": [
+        3,
+        2.02
+      ],
+      "agi": [
+        71,
+        0.54
+      ],
+      "baselineVerified": false,
+      "total": 4.69,
+      "attrs": {
+        "지": 3,
+        "수": 7
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/060/128/0596abc52985109e0ceca4eeb8ec1c09.gif",
+      "source": "운영지원",
+      "tier": "일반",
+      "ride": true,
+      "skillSlots": 5
+    },
+    {
+      "name": "부루마루",
+      "toinfoId": "128057",
+      "toinfoInitial": [
+        13,
+        7,
+        8,
+        60
+      ],
+      "toinfoGrowth": [
+        10.51,
+        2.34,
+        1.32,
+        1.41
+      ],
+      "hp": [
+        13,
+        10.51
+      ],
+      "atk": [
+        7,
+        2.34
+      ],
+      "def": [
+        8,
+        1.32
+      ],
+      "agi": [
+        60,
+        1.41
+      ],
+      "baselineVerified": false,
+      "total": 5.07,
+      "attrs": {
+        "수": 8,
+        "화": 2
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/057/128/3149edb3c89d08b3fb14b21b08c6ce1e.gif",
+      "source": "운영지원",
+      "tier": "일반",
+      "ride": true,
+      "skillSlots": 5
+    },
+    {
+      "name": "바우트",
+      "toinfoId": "128051",
+      "toinfoInitial": [
+        12,
+        12,
+        2,
+        68
+      ],
+      "toinfoGrowth": [
+        11.98,
+        2.25,
+        2.17,
+        0.46
+      ],
+      "hp": [
+        12,
+        11.98
+      ],
+      "atk": [
+        12,
+        2.25
+      ],
+      "def": [
+        2,
+        2.17
+      ],
+      "agi": [
+        68,
+        0.46
+      ],
+      "baselineVerified": false,
+      "total": 4.87,
+      "attrs": {
+        "수": 1,
+        "화": 9
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/051/128/4a1f544e1d10cd614c2c7a13468de4ae.gif",
+      "source": "운영지원",
+      "tier": "일반",
+      "ride": true,
+      "skillSlots": 5
+    },
+    {
+      "name": "푸타카",
+      "toinfoId": "128040",
+      "toinfoInitial": [
+        6,
+        4,
+        7,
+        38
+      ],
+      "toinfoGrowth": [
+        10.25,
+        1.75,
+        1.26,
+        2.06
+      ],
+      "hp": [
+        6,
+        10.25
+      ],
+      "atk": [
+        4,
+        1.75
+      ],
+      "def": [
+        7,
+        1.26
+      ],
+      "agi": [
+        38,
+        2.06
+      ],
+      "baselineVerified": false,
+      "total": 5.09,
+      "attrs": {
+        "지": 2,
+        "수": 8
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/040/128/f020fac8b099d417f476d8632184315a.gif",
+      "source": "필드포획(골드볼라)",
+      "tier": "일반",
+      "ride": true,
+      "skillSlots": 6
+    },
+    {
+      "name": "푸모나스",
+      "toinfoId": "128037",
+      "toinfoInitial": [
+        10,
+        12,
+        2,
+        78
+      ],
+      "toinfoGrowth": [
+        13.72,
+        1.78,
+        2.21,
+        0.41
+      ],
+      "hp": [
+        10,
+        13.72
+      ],
+      "atk": [
+        12,
+        1.78
+      ],
+      "def": [
+        2,
+        2.21
+      ],
+      "agi": [
+        78,
+        0.41
+      ],
+      "baselineVerified": false,
+      "total": 4.41,
+      "attrs": {
+        "지": 2,
+        "수": 8
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/037/128/0878ce223405bc9c53ebffb0182bb29e.gif",
+      "source": "필드포획(골드볼라)",
+      "tier": "일반",
+      "ride": false,
+      "skillSlots": 4
+    },
+    {
+      "name": "노보스",
+      "toinfoId": "128031",
+      "toinfoInitial": [
+        9,
+        9,
+        3,
+        52
+      ],
+      "toinfoGrowth": [
+        11.33,
+        2.1,
+        2.02,
+        0.76
+      ],
+      "hp": [
+        9,
+        11.33
+      ],
+      "atk": [
+        9,
+        2.1
+      ],
+      "def": [
+        3,
+        2.02
+      ],
+      "agi": [
+        52,
+        0.76
+      ],
+      "baselineVerified": false,
+      "total": 4.88,
+      "attrs": {
+        "화": 6,
+        "풍": 4
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/031/128/0e6e8fd536184b1f196125110aa010c5.gif",
+      "source": "필드포획(골드볼라)",
+      "tier": "일반",
+      "ride": false,
+      "skillSlots": 5
+    },
+    {
+      "name": "판그라",
+      "toinfoId": "128024",
+      "toinfoInitial": [
+        10,
+        6,
+        5,
+        48
+      ],
+      "toinfoGrowth": [
+        10.48,
+        2.35,
+        1.42,
+        1.16
+      ],
+      "hp": [
+        10,
+        10.48
+      ],
+      "atk": [
+        6,
+        2.35
+      ],
+      "def": [
+        5,
+        1.42
+      ],
+      "agi": [
+        48,
+        1.16
+      ],
+      "baselineVerified": false,
+      "total": 4.93,
+      "attrs": {
+        "수": 2,
+        "화": 8
+      },
+      "image": "https://toinfo.work/files/extravar_upload/137/024/128/01eca03fe2bd20566fa2171875777ada.gif",
+      "source": "필드포획(골드볼라)",
+      "tier": "일반",
+      "ride": false,
+      "skillSlots": 5
+    }
+  ],
+  "total": 20
+}
