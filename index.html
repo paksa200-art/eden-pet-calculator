@@ -869,8 +869,12 @@ for (let a = -2; a <= 2; a++) {
 
 function infer(p) {
 
+  // 원본 계산기의 소수점 기준 능력치를 우선 사용합니다.
+  // 등록되지 않은 페트는 기존 기준값으로 계산하며 정확도가 보장되지 않습니다.
   let [h, a, d, s] =
-    keys.map(k => p[k][0]);
+    (Array.isArray(p.preciseInitial) && p.preciseInitial.length === 4
+      ? p.preciseInitial
+      : keys.map(k => p[k][0])).map(Number);
 
   let v = s;
 
