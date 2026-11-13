@@ -1,160 +1,1280 @@
+
 <!doctype html>
 <html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>에덴 페트 계산기</title>
+
 <style>
-:root{font-family:system-ui,-apple-system,'Malgun Gothic',sans-serif;color:#172333;background:#fff}
-*{box-sizing:border-box}body{margin:0;background:#fff}
-header{border-bottom:1px solid #e9edf2;background:#fff;padding:22px max(22px,calc((100% - 1160px)/2))}
-header h1{font-size:25px;letter-spacing:-.8px;margin:0}header p{font-size:13px;color:#66758a;margin:7px 0 0}header a{color:#2563eb;text-decoration:none;font-size:13px}
-main{max-width:1160px;margin:auto;padding:26px 20px;display:grid;grid-template-columns:300px minmax(0,1fr);gap:22px}
-.panel{background:#fff;border:1px solid #e5eaf0;border-radius:14px;padding:21px;margin-bottom:18px;box-shadow:0 3px 16px rgba(20,40,80,.035)}
-h2{font-size:17px;letter-spacing:-.4px;margin:0 0 15px}.muted{color:#6d7b8e}.small{font-size:12px}.tag{display:inline-block;background:#f1f5f9;color:#475569;padding:4px 9px;border-radius:20px;font-size:12px}
-input,button{font:inherit;border-radius:9px}input{border:1px solid #d8e0e9;padding:12px;background:#fff;color:#172333;width:100%}input:focus{outline:2px solid #dbeafe;border-color:#60a5fa}
-button{background:#fff;border:1px solid #d8e0e9;padding:10px 13px;color:#26354a;cursor:pointer}button:hover{background:#f6f9fd}button.primary{background:#2563eb;color:#fff;border-color:#2563eb;font-weight:700}button:disabled{opacity:.5;cursor:not-allowed}
-.pets{height:490px;overflow:auto;margin-top:12px}.pet{display:flex;align-items:center;gap:10px;width:100%;text-align:left;border:0;border-bottom:1px solid #f0f2f6;border-radius:0;background:#fff;padding:12px 9px;font-size:13px}.pet.active{background:#eff6ff;color:#1d4ed8;border-radius:8px;font-weight:700}
-.pet-thumb{width:42px;height:42px;object-fit:contain;background:#f8fafc;border-radius:8px;flex-shrink:0}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.stat{background:#f7f9fc;padding:12px;border-radius:10px}.stat label{display:block;font-size:12px;color:#64748b;margin-bottom:8px}.step{display:flex;gap:3px}.step button{padding:6px 9px}.step input{min-width:0;text-align:center;padding:8px}
-.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.kpi{padding:15px;border:1px solid #e9edf2;border-radius:10px;font-size:12px;color:#64748b}.kpi strong{display:block;font-size:21px;margin-top:8px;color:#1d4ed8}
-table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px solid #e9edf2;padding:10px;text-align:right}td:first-child,th:first-child{text-align:left}.scroll{overflow:auto;max-height:400px}
-.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:15px}.notice{border-radius:10px;background:#f8fafc;padding:12px 14px;font-size:12px;color:#475569;line-height:1.7}
-.pet-top{display:flex;gap:16px;align-items:center}.pet-top img{width:82px;height:82px;object-fit:contain;background:#f8fafc;border-radius:10px}.pet-top h2{margin-bottom:8px;font-size:23px}
-@media(max-width:800px){main{display:block;padding:16px}.pets{height:240px}.stats{grid-template-columns:repeat(2,1fr)}.kpis{grid-template-columns:repeat(2,1fr)}header{padding:20px}}
+:root {
+  font-family: system-ui, -apple-system,
+    "Malgun Gothic", sans-serif;
+  color: #172333;
+  background: #fff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #fff;
+}
+
+header {
+  border-bottom: 1px solid #e9edf2;
+  background: #fff;
+  padding: 22px max(22px, calc((100% - 1160px)/2));
+}
+
+header h1 {
+  font-size: 25px;
+  letter-spacing: -.8px;
+  margin: 0;
+}
+
+header p {
+  font-size: 13px;
+  color: #66758a;
+  margin: 7px 0 0;
+}
+
+header a {
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+main {
+  max-width: 1160px;
+  margin: auto;
+  padding: 26px 20px;
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  gap: 22px;
+}
+
+.panel {
+  background: #fff;
+  border: 1px solid #e5eaf0;
+  border-radius: 14px;
+  padding: 21px;
+  margin-bottom: 18px;
+  box-shadow: 0 3px 16px rgba(20,40,80,.035);
+}
+
+h2 {
+  font-size: 17px;
+  letter-spacing: -.4px;
+  margin: 0 0 15px;
+}
+
+.muted { color: #6d7b8e; }
+.small { font-size: 12px; }
+
+.tag {
+  display: inline-block;
+  background: #f1f5f9;
+  color: #475569;
+  padding: 4px 9px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+input, button {
+  font: inherit;
+  border-radius: 9px;
+}
+
+input {
+  border: 1px solid #d8e0e9;
+  padding: 12px;
+  background: #fff;
+  color: #172333;
+  width: 100%;
+}
+
+input:focus {
+  outline: 2px solid #dbeafe;
+  border-color: #60a5fa;
+}
+
+button {
+  background: #fff;
+  border: 1px solid #d8e0e9;
+  padding: 10px 13px;
+  color: #26354a;
+  cursor: pointer;
+}
+
+button:hover { background: #f6f9fd; }
+
+button.primary {
+  background: #2563eb;
+  color: #fff;
+  border-color: #2563eb;
+  font-weight: 700;
+}
+
+button:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.pets {
+  height: 490px;
+  overflow: auto;
+  margin-top: 12px;
+}
+
+.pet {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+  border: 0;
+  border-bottom: 1px solid #f0f2f6;
+  border-radius: 0;
+  background: #fff;
+  padding: 12px 9px;
+  font-size: 13px;
+}
+
+.pet.active {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.pet-thumb {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  background: #f8fafc;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.stat {
+  background: #f7f9fc;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.stat label {
+  display: block;
+  font-size: 12px;
+  color: #64748b;
+  margin-bottom: 8px;
+}
+
+.step {
+  display: flex;
+  gap: 3px;
+}
+
+.step button { padding: 6px 9px; }
+
+.step input {
+  min-width: 0;
+  text-align: center;
+  padding: 8px;
+}
+
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.kpi {
+  padding: 15px;
+  border: 1px solid #e9edf2;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #64748b;
+}
+
+.kpi strong {
+  display: block;
+  font-size: 21px;
+  margin-top: 8px;
+  color: #1d4ed8;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 13px;
+}
+
+td, th {
+  border-bottom: 1px solid #e9edf2;
+  padding: 10px;
+  text-align: right;
+}
+
+td:first-child, th:first-child {
+  text-align: left;
+}
+
+.scroll {
+  overflow: auto;
+  max-height: 400px;
+}
+
+.actions {
+  display: flex;
+  gap: 9px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.notice {
+  border-radius: 10px;
+  background: #f8fafc;
+  padding: 12px 14px;
+  font-size: 12px;
+  color: #475569;
+  line-height: 1.7;
+}
+
+.pet-top {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.pet-top img {
+  width: 82px;
+  height: 82px;
+  object-fit: contain;
+  background: #f8fafc;
+  border-radius: 10px;
+}
+
+.pet-top h2 {
+  margin-bottom: 8px;
+  font-size: 23px;
+}
+
+@media (max-width: 800px) {
+  main {
+    display: block;
+    padding: 16px;
+  }
+
+  .pets { height: 240px; }
+
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .kpis {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  header { padding: 20px; }
+}
 </style>
 </head>
+
 <body>
-<header><div style="display:flex;justify-content:space-between;align-items:center;gap:16px"><div><h1>에덴 페트 계산기</h1><p>toinfo.work 등록 페트 정보 기반</p></div><a href="/admin.html">관리자</a></div></header>
+
+<header>
+  <div style="
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:16px;
+  ">
+    <div>
+      <h1>에덴 페트 계산기</h1>
+      <p>toinfo.work 등록 페트 정보 기반</p>
+    </div>
+    <a href="/admin.html">관리자</a>
+  </div>
+</header>
+
 <main>
-<aside><section class="panel"><h2>페트 검색 <span class="tag" id="count">불러오는 중</span></h2><input id="search" placeholder="페트 이름 검색"><div class="pets" id="petList"></div></section><div class="notice" id="snapshot">데이터 확인 중…</div></aside>
+
+<aside>
+  <section class="panel">
+    <h2>
+      페트 검색
+      <span class="tag" id="count">
+        불러오는 중
+      </span>
+    </h2>
+
+    <input
+      id="search"
+      placeholder="페트 이름 검색"
+    >
+
+    <div class="pets" id="petList"></div>
+  </section>
+
+  <div class="notice" id="snapshot">
+    데이터 확인 중…
+  </div>
+</aside>
+
 <div>
-<section class="panel"><div class="pet-top"><img id="photo" alt=""><div><h2 id="petName">페트를 선택하세요</h2><div id="details" class="muted small"></div></div></div><p class="muted small" id="growth"></p></section>
-<section class="panel"><h2>페트 초기 능력치</h2><p class="muted small">toinfo.work에 표시된 정수 초기치입니다.</p><div class="stats" id="statInputs"></div><div class="actions"><button id="calculate" class="primary" disabled>환각 계산</button><button id="reset">초기치 재설정</button></div><p class="notice">정확한 환각 계산에는 소수점 S랭크 기준 초기치가 필요합니다. 원본 사이트가 제공하지 않는 값은 임의로 만들지 않습니다.</p></section>
-<section class="panel"><h2>계산 결과</h2><p id="status" class="muted small">페트를 선택하세요.</p><div class="kpis" id="kpis"></div><h2 style="margin-top:22px">등급별 후보</h2><div class="scroll"><table><thead><tr><th>등급</th><th>후보 수</th><th>후보 비율</th></tr></thead><tbody id="grades"></tbody></table></div><details style="margin-top:16px"><summary>상세 조합</summary><div class="scroll"><table><thead><tr><th>등급</th><th>내구</th><th>공격</th><th>방어</th><th>순발</th></tr></thead><tbody id="rows"></tbody></table></div></details></section>
+
+<section class="panel">
+  <div class="pet-top">
+    <img id="photo" alt="">
+
+    <div>
+      <h2 id="petName">
+        페트를 선택하세요
+      </h2>
+
+      <div
+        id="details"
+        class="muted small"
+      ></div>
+    </div>
+  </div>
+
+  <p
+    class="muted small"
+    id="growth"
+  ></p>
+</section>
+
+<section class="panel">
+  <h2>페트 초기 능력치</h2>
+
+  <p class="muted small">
+    내구력 → 공격력 → 방어력 → 순발력 순서로 표시합니다.
+  </p>
+
+  <div
+    class="stats"
+    id="statInputs"
+  ></div>
+
+  <div class="actions">
+    <button
+      id="calculate"
+      class="primary"
+      disabled
+    >
+      환각 계산
+    </button>
+
+    <button id="reset">
+      초기치 재설정
+    </button>
+  </div>
+
+  <p class="notice">
+    계산 결과는 검증되지 않은 추정 공식에 따른
+    참고값입니다. 실제 게임의 환각 확률과
+    다를 수 있습니다.
+  </p>
+</section>
+
+<section class="panel">
+  <h2>계산 결과</h2>
+
+  <p
+    id="status"
+    class="muted small"
+  >
+    페트를 선택하세요.
+  </p>
+
+  <div
+    class="kpis"
+    id="kpis"
+  ></div>
+
+  <h2 style="margin-top:22px">
+    등급별 후보
+  </h2>
+
+  <div class="scroll">
+    <table>
+      <thead>
+        <tr>
+          <th>등급</th>
+          <th>후보 수</th>
+          <th>후보 비율</th>
+        </tr>
+      </thead>
+
+      <tbody id="grades"></tbody>
+    </table>
+  </div>
+
+  <details style="margin-top:16px">
+    <summary>상세 조합</summary>
+
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>등급</th>
+            <th>내구</th>
+            <th>공격</th>
+            <th>방어</th>
+            <th>순발</th>
+          </tr>
+        </thead>
+
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </details>
+</section>
+
 </div>
 </main>
+
 <script>
-const $=id=>document.getElementById(id);
-let pets=[],selected=null;
-const keys=['hp','atk','def','agi'],names=['내구력','공격력','방어력','순발력'];
-const fmt=(n,d=2)=>Number(n||0).toFixed(d);
 
-// 업로드한 파일명: images/pets/<toinfoId>.<원본 확장자>
-function imageUrl(p){
-  if(!p)return '';
-  const id=String(p.toinfoId??'').replace(/[^a-zA-Z0-9_-]/g,'');
-  if(!id)return '';
-  const original=String(p.image||'');
-  const ext=original.match(/\.(gif|png|jpg|jpeg|webp)(?:[?#]|$)/i)?.[1]?.toLowerCase()||'gif';
-  return '/images/pets/'+id+'.'+ext;
+const $ = id => document.getElementById(id);
+
+let pets = [];
+let selected = null;
+
+const keys = [
+  "hp",
+  "atk",
+  "def",
+  "agi"
+];
+
+const names = [
+  "내구력",
+  "공격력",
+  "방어력",
+  "순발력"
+];
+
+const fmt = (n, d = 2) =>
+  Number(n || 0).toFixed(d);
+
+
+/*
+====================================
+초기 능력치 순서 보정
+====================================
+
+정상:
+[내구, 공격, 방어, 순발]
+
+일부 수집 데이터:
+[공격, 방어, 순발, 내구]
+
+예:
+샤크론
+[11, 6, 9, 57]
+→ [57, 11, 6, 9]
+
+실버로크스
+[62, 10, 10, 8]
+→ 그대로 유지
+
+이 규칙은 추정 보정이며,
+모든 페트의 검증을 대신하지 않습니다.
+*/
+
+function normalizedStats(p) {
+
+  const raw =
+    Array.isArray(p.toinfoInitial) &&
+    p.toinfoInitial.length === 4
+      ? p.toinfoInitial.map(Number)
+      : keys.map(k =>
+          Number(p[k]?.[0] ?? 0)
+        );
+
+  if (
+    raw.every(Number.isFinite) &&
+    raw[3] >= 30 &&
+    raw[3] > raw[0] &&
+    raw[0] < 30
+  ) {
+    return [
+      raw[3],
+      raw[0],
+      raw[1],
+      raw[2]
+    ];
+  }
+
+  return raw;
 }
-function setPetImage(img,p){
-  img.style.visibility='visible';
-  img.alt=p?.name||'';
-  img.onerror=()=>{img.style.visibility='hidden'};
-  const src=imageUrl(p);
-  if(src)img.src=src;
-  else{img.removeAttribute('src');img.style.visibility='hidden'}
+
+
+/*
+초기 능력치와 계산에 사용되는
+기초 능력치를 같은 순서로 맞춥니다.
+*/
+
+function normalizedPet(p) {
+
+  const values = normalizedStats(p);
+
+  return {
+    ...p,
+
+    toinfoInitial: values,
+
+    ...Object.fromEntries(
+      keys.map((k, i) => [
+        k,
+        [
+          values[i],
+          Number(p[k]?.[1] ?? 0)
+        ]
+      ])
+    )
+  };
 }
-function renderList(){
-  const q=$('search').value.replace(/\s/g,'').toLowerCase();
-  const found=pets.filter(p=>String(p.name||'').replace(/\s/g,'').toLowerCase().includes(q));
-  $('count').textContent=found.length+' / '+pets.length;
-  $('petList').replaceChildren();
-  for(const p of found){
-    const b=document.createElement('button');
-    b.className='pet'+(p.toinfoId===selected?' active':'');
-    const thumb=document.createElement('img');
-    thumb.className='pet-thumb';thumb.loading='lazy';
-    setPetImage(thumb,p);
-    const label=document.createElement('span');
-    label.textContent=p.name+'  ·  '+fmt(p.total);
-    b.append(thumb,label);
-    b.onclick=()=>{selected=p.toinfoId;renderList();renderPet()};
-    $('petList').append(b);
+
+
+/*
+====================================
+GitHub 이미지 연결
+====================================
+
+images/pets/페트ID.gif
+
+기존 외부 이미지 주소를
+직접 불러오지 않습니다.
+*/
+
+function imageUrl(p) {
+
+  if (!p) return "";
+
+  const id = String(
+    p.toinfoId ?? ""
+  ).replace(
+    /[^a-zA-Z0-9_-]/g,
+    ""
+  );
+
+  if (!id) return "";
+
+  const original = String(
+    p.image || ""
+  );
+
+  const ext = original.match(
+    /\.(gif|png|jpg|jpeg|webp)(?:[?#]|$)/i
+  )?.[1]?.toLowerCase() || "gif";
+
+  return (
+    "/images/pets/" +
+    id +
+    "." +
+    ext
+  );
+}
+
+
+function setPetImage(img, p) {
+
+  img.style.visibility = "visible";
+
+  img.alt = p?.name || "";
+
+  img.onerror = () => {
+    img.style.visibility = "hidden";
+  };
+
+  const src = imageUrl(p);
+
+  if (src) {
+    img.src = src;
+  } else {
+    img.removeAttribute("src");
+    img.style.visibility = "hidden";
   }
 }
-function current(){return pets.find(p=>p.toinfoId===selected)}
-function renderPet(){
-  const p=current();if(!p)return;
-  $('petName').textContent=p.name;
-  setPetImage($('photo'),p);
-  $('details').textContent=Object.entries(p.attrs||{}).map(([k,v])=>k+v).join(' / ')+' · '+(p.source||'획득처 미상')+' · 기술창 '+(p.skillSlots??'-');
-  $('growth').textContent='전체 '+fmt(p.total)+' / 공격 '+fmt(p.atk?.[1])+' / 방어 '+fmt(p.def?.[1])+' / 순발 '+fmt(p.agi?.[1])+' / 내구 '+fmt(p.hp?.[1]);
-  $('statInputs').replaceChildren();
-  keys.forEach((k,i)=>{
-    const d=document.createElement('div');d.className='stat';
-    const initial=Array.isArray(p.toinfoInitial)?p.toinfoInitial[i]:p[k]?.[0]??0;
-    d.innerHTML='<label>'+names[i]+'</label><div class="step"><button type="button">−</button><input type="number" min="0" step="1" id="s'+i+'" value="'+Number(initial||0)+'"><button type="button">+</button></div>';
-    const bs=d.querySelectorAll('button'),inp=d.querySelector('input');
-    bs[0].onclick=()=>inp.value=Math.max(0,(Number(inp.value)||0)-1);
-    bs[1].onclick=()=>inp.value=(Number(inp.value)||0)+1;
-    $('statInputs').append(d);
+
+
+/*
+====================================
+페트 검색 목록
+====================================
+*/
+
+function renderList() {
+
+  const q = $("search")
+    .value
+    .replace(/\s/g, "")
+    .toLowerCase();
+
+  const found = pets.filter(p =>
+    String(p.name || "")
+      .replace(/\s/g, "")
+      .toLowerCase()
+      .includes(q)
+  );
+
+  $("count").textContent =
+    found.length +
+    " / " +
+    pets.length;
+
+  $("petList").replaceChildren();
+
+  for (const p of found) {
+
+    const b = document.createElement(
+      "button"
+    );
+
+    b.className =
+      "pet" +
+      (
+        p.toinfoId === selected
+          ? " active"
+          : ""
+      );
+
+    const thumb = document.createElement(
+      "img"
+    );
+
+    thumb.className = "pet-thumb";
+    thumb.loading = "lazy";
+
+    setPetImage(thumb, p);
+
+    const label = document.createElement(
+      "span"
+    );
+
+    label.textContent =
+      p.name +
+      "  ·  " +
+      fmt(p.total);
+
+    b.append(thumb, label);
+
+    b.onclick = () => {
+
+      selected = p.toinfoId;
+
+      renderList();
+      renderPet();
+
+    };
+
+    $("petList").append(b);
+  }
+}
+
+
+function current() {
+
+  return pets.find(
+    p => p.toinfoId === selected
+  );
+}
+
+
+/*
+====================================
+선택 페트 표시
+====================================
+*/
+
+function renderPet() {
+
+  const p = current();
+
+  if (!p) return;
+
+  $("petName").textContent = p.name;
+
+  setPetImage($("photo"), p);
+
+  $("details").textContent =
+    Object.entries(p.attrs || {})
+      .map(([k, v]) => k + v)
+      .join(" / ") +
+    " · " +
+    (p.source || "획득처 미상") +
+    " · 기술창 " +
+    (p.skillSlots ?? "-");
+
+  $("growth").textContent =
+    "전체 " + fmt(p.total) +
+    " / 공격 " + fmt(p.atk?.[1]) +
+    " / 방어 " + fmt(p.def?.[1]) +
+    " / 순발 " + fmt(p.agi?.[1]) +
+    " / 내구 " + fmt(p.hp?.[1]);
+
+  $("statInputs").replaceChildren();
+
+  keys.forEach((k, i) => {
+
+    const d = document.createElement(
+      "div"
+    );
+
+    d.className = "stat";
+
+    const initial =
+      p.toinfoInitial[i];
+
+    d.innerHTML =
+      "<label>" +
+      names[i] +
+      "</label>" +
+      '<div class="step">' +
+      '<button type="button">−</button>' +
+      '<input type="number" min="0" ' +
+      'step="1" id="s' + i + '" ' +
+      'value="' + Number(initial || 0) + '">' +
+      '<button type="button">+</button>' +
+      "</div>";
+
+    const bs = d.querySelectorAll(
+      "button"
+    );
+
+    const inp = d.querySelector(
+      "input"
+    );
+
+    bs[0].onclick = () => {
+
+      inp.value = Math.max(
+        0,
+        (Number(inp.value) || 0) - 1
+      );
+
+    };
+
+    bs[1].onclick = () => {
+
+      inp.value =
+        (Number(inp.value) || 0) + 1;
+
+    };
+
+    $("statInputs").append(d);
   });
-  $('status').textContent='toinfo.work에는 소수점 기준 초기치가 없어 정확한 환각 계산은 제한됩니다.';
-  $('kpis').innerHTML='';$('grades').innerHTML='';$('rows').innerHTML='';
-  $('calculate').disabled=p.baselineVerified!==true;
+
+  $("status").textContent =
+    "환각 계산은 검증 전 추정 공식입니다. " +
+    "결과는 참고용으로 확인하세요.";
+
+  $("kpis").innerHTML = "";
+  $("grades").innerHTML = "";
+  $("rows").innerHTML = "";
+
+  // 페트 선택 후 계산 버튼 활성화
+  $("calculate").disabled = false;
 }
 
-// 기존 계산 알고리즘 보존 (정확성 검증 전)
-const bonus=[];
-for(let a=0;a<=10;a++)for(let b=0;a+b<=10;b++)for(let c=0;a+b+c<=10;c++)bonus.push([a,b,c,10-a-b-c]);
-const fac=[1];for(let i=1;i<=10;i++)fac[i]=fac[i-1]*i;
-const bonusWeights=bonus.map(v=>fac[10]/v.reduce((x,n)=>x*fac[n],1));
-const offsets=[];
-for(let a=-2;a<=2;a++)for(let b=-2;b<=2;b++)for(let c=-2;c<=2;c++)for(let d=-2;d<=2;d++)offsets.push([a,b,c,d,a+b+c+d]);
-function infer(p){
-  let [h,a,d,s]=keys.map(k=>p[k][0]);
-  let v=s,aa=a-.05*v,dd=d-.05*v,ss=h-v,c=(aa-dd)/.9,l=(aa-c-.1*(ss-c)/4)/1.05;
-  let raw=[(ss-c-2*l)/4,l+c,l,v],best=null;
-  for(let init=10;init<=30;init++){
-    let alloc=raw.map(x=>x*100/init-4.5);
-    let error=Math.max(...alloc.map(x=>Math.abs(x-Math.round(x))));
-    if(!best||error<best.error-1e-9)best={init,alloc:alloc.map(Math.round),error};
-  }
-  return best;
-}
-function calc(p,observed){
-  let {init,alloc,error}=infer(p),counts=new Map(),total=0,hwan=0,weighted=0,weightedHwan=0,rows=[];
-  for(let o of offsets){
-    for(let j=0;j<bonus.length;j++){
-      let b=bonus[j],v=alloc.map((x,i)=>x+o[i]+b[i]);
-      let h=v[0]*init/100,a=v[1]*init/100,d=v[2]*init/100,s=v[3]*init/100;
-      let vals=[4*h+a+d+s,.1*h+a+.1*d+.05*s,.1*h+.1*a+d+.05*s,s];
-      if(vals.some((v,i)=>Math.floor(v)!==observed[i]))continue;
-      let grade=o[4],w=bonusWeights[j];
-      total++;counts.set(grade,(counts.get(grade)||0)+1);weighted+=w;
-      if(grade===8){hwan++;weightedHwan+=w}
-      if(rows.length<300)rows.push({grade,vals});
+
+/*
+====================================
+환각 계산 추정 알고리즘
+====================================
+
+기존 추정 계산 구조를 유지합니다.
+
+실제 게임의 공식과 일치하는지는
+추가 검증이 필요합니다.
+*/
+
+const bonus = [];
+
+for (let a = 0; a <= 10; a++) {
+  for (
+    let b = 0;
+    a + b <= 10;
+    b++
+  ) {
+    for (
+      let c = 0;
+      a + b + c <= 10;
+      c++
+    ) {
+
+      bonus.push([
+        a,
+        b,
+        c,
+        10 - a - b - c
+      ]);
+
     }
   }
-  return{total,hwan,rate:total?hwan/total:0,weightedRate:weighted?weightedHwan/weighted:0,counts:[...counts].sort((a,b)=>b[0]-a[0]),rows:rows.sort((a,b)=>b.grade-a.grade),appearRate:total/(625*bonus.length),error,init};
 }
-$('calculate').onclick=()=>{
-  let p=current();if(!p)return;
-  if(p.baselineVerified===false){$('status').textContent='소수점 S랭크 기준 초기치가 없어 정확한 계산을 할 수 없습니다.';return;}
-  let vals=keys.map((_,i)=>Number($('s'+i).value));
-  if(vals.some(v=>!Number.isInteger(v)||v<0)){alert('초기 능력치는 0 이상의 정수여야 합니다.');return;}
-  $('status').textContent='계산 중...';
-  setTimeout(()=>{
-    let r=calc(p,vals);
-    $('status').textContent='기준 초기치 역산: '+r.init+' · 오차 '+fmt(r.error,4)+(r.total?' · 결과 '+r.total+'개':' · 일치하는 조합 없음');
-    $('kpis').innerHTML=[['일치 후보',r.total.toLocaleString()+'개'],['환각 후보',r.hwan.toLocaleString()+'개'],['환각 후보 비율',fmt(r.rate*100,4)+'%'],['가중 환각 비율',fmt(r.weightedRate*100,4)+'%'],['전체 조합 대비 출현율',fmt(r.appearRate*100,4)+'%']].map(x=>'<div class="kpi">'+x[0]+'<strong>'+x[1]+'</strong></div>').join('');
-    $('grades').innerHTML=r.counts.map(([g,n])=>'<tr><td>'+g+'</td><td>'+n.toLocaleString()+'</td><td>'+fmt(n/r.total*100,2)+'%</td></tr>').join('');
-    $('rows').innerHTML=r.rows.map(x=>'<tr><td>'+x.grade+'</td>'+x.vals.map(v=>'<td>'+fmt(v,2)+'</td>').join('')+'</tr>').join('');
-  },30);
+
+
+const fac = [1];
+
+for (let i = 1; i <= 10; i++) {
+  fac[i] = fac[i - 1] * i;
+}
+
+
+const bonusWeights = bonus.map(
+  v =>
+    fac[10] /
+    v.reduce(
+      (x, n) => x * fac[n],
+      1
+    )
+);
+
+
+const offsets = [];
+
+for (let a = -2; a <= 2; a++) {
+  for (let b = -2; b <= 2; b++) {
+    for (let c = -2; c <= 2; c++) {
+      for (let d = -2; d <= 2; d++) {
+
+        offsets.push([
+          a,
+          b,
+          c,
+          d,
+          a + b + c + d
+        ]);
+
+      }
+    }
+  }
+}
+
+
+/*
+기준 능력치 역산
+*/
+
+function infer(p) {
+
+  let [h, a, d, s] =
+    keys.map(k => p[k][0]);
+
+  let v = s;
+
+  let aa = a - .05 * v;
+  let dd = d - .05 * v;
+  let ss = h - v;
+
+  let c = (aa - dd) / .9;
+
+  let l =
+    (aa - c - .1 * (ss - c) / 4) /
+    1.05;
+
+  let raw = [
+    (ss - c - 2 * l) / 4,
+    l + c,
+    l,
+    v
+  ];
+
+  let best = null;
+
+  for (
+    let init = 10;
+    init <= 30;
+    init++
+  ) {
+
+    let alloc = raw.map(
+      x => x * 100 / init - 4.5
+    );
+
+    let error = Math.max(
+      ...alloc.map(
+        x =>
+          Math.abs(
+            x - Math.round(x)
+          )
+      )
+    );
+
+    if (
+      !best ||
+      error < best.error - 1e-9
+    ) {
+
+      best = {
+        init,
+        alloc: alloc.map(Math.round),
+        error
+      };
+
+    }
+  }
+
+  return best;
+}
+
+
+/*
+일치 후보 계산
+*/
+
+function calc(p, observed) {
+
+  let {
+    init,
+    alloc,
+    error
+  } = infer(p);
+
+  let counts = new Map();
+
+  let total = 0;
+  let hwan = 0;
+
+  let weighted = 0;
+  let weightedHwan = 0;
+
+  let rows = [];
+
+  for (let o of offsets) {
+
+    for (
+      let j = 0;
+      j < bonus.length;
+      j++
+    ) {
+
+      let b = bonus[j];
+
+      let v = alloc.map(
+        (x, i) =>
+          x + o[i] + b[i]
+      );
+
+      let h = v[0] * init / 100;
+      let a = v[1] * init / 100;
+      let d = v[2] * init / 100;
+      let s = v[3] * init / 100;
+
+      let vals = [
+        4 * h + a + d + s,
+        .1 * h + a + .1 * d + .05 * s,
+        .1 * h + .1 * a + d + .05 * s,
+        s
+      ];
+
+      if (
+        vals.some(
+          (v, i) =>
+            Math.floor(v) !== observed[i]
+        )
+      ) {
+        continue;
+      }
+
+      let grade = o[4];
+      let w = bonusWeights[j];
+
+      total++;
+
+      counts.set(
+        grade,
+        (counts.get(grade) || 0) + 1
+      );
+
+      weighted += w;
+
+      if (grade === 8) {
+
+        hwan++;
+        weightedHwan += w;
+
+      }
+
+      if (rows.length < 300) {
+
+        rows.push({
+          grade,
+          vals
+        });
+
+      }
+    }
+  }
+
+  return {
+    total,
+    hwan,
+
+    rate:
+      total
+        ? hwan / total
+        : 0,
+
+    weightedRate:
+      weighted
+        ? weightedHwan / weighted
+        : 0,
+
+    counts:
+      [...counts].sort(
+        (a, b) => b[0] - a[0]
+      ),
+
+    rows:
+      rows.sort(
+        (a, b) =>
+          b.grade - a.grade
+      ),
+
+    appearRate:
+      total /
+      (625 * bonus.length),
+
+    error,
+    init
+  };
+}
+
+
+/*
+====================================
+환각 계산 버튼
+====================================
+*/
+
+$("calculate").onclick = () => {
+
+  const p = current();
+
+  if (!p) return;
+
+  const vals = keys.map(
+    (_, i) =>
+      Number($("s" + i).value)
+  );
+
+  if (
+    vals.some(
+      v =>
+        !Number.isInteger(v) ||
+        v < 0
+    )
+  ) {
+
+    alert(
+      "초기 능력치는 0 이상의 " +
+      "정수여야 합니다."
+    );
+
+    return;
+  }
+
+  $("status").textContent =
+    "계산 중...";
+
+  setTimeout(() => {
+
+    let r;
+
+    try {
+
+      r = calc(p, vals);
+
+    } catch (e) {
+
+      $("status").textContent =
+        "계산 오류: " + e.message;
+
+      return;
+    }
+
+    $("status").textContent =
+      "[추정 공식 · 미검증] " +
+      "기준 초기치 역산: " +
+      r.init +
+      " · 오차 " +
+      fmt(r.error, 4) +
+      (
+        r.total
+          ? " · 결과 " + r.total + "개"
+          : " · 일치하는 조합 없음 " +
+            "(실제 확률 0%를 뜻하지 않음)"
+      );
+
+    const items = [
+      [
+        "일치 후보",
+        r.total.toLocaleString() + "개"
+      ],
+      [
+        "환각 후보",
+        r.hwan.toLocaleString() + "개"
+      ],
+      [
+        "환각 후보 비율",
+        fmt(r.rate * 100, 4) + "%"
+      ],
+      [
+        "가중 환각 비율",
+        fmt(r.weightedRate * 100, 4) + "%"
+      ],
+      [
+        "전체 조합 대비 출현율",
+        fmt(r.appearRate * 100, 4) + "%"
+      ]
+    ];
+
+    $("kpis").innerHTML =
+      items.map(
+        x =>
+          '<div class="kpi">' +
+          x[0] +
+          "<strong>" +
+          x[1] +
+          "</strong></div>"
+      ).join("");
+
+    $("grades").innerHTML =
+      r.counts.map(
+        ([g, n]) =>
+          "<tr><td>" +
+          g +
+          "</td><td>" +
+          n.toLocaleString() +
+          "</td><td>" +
+          fmt(n / r.total * 100, 2) +
+          "%</td></tr>"
+      ).join("");
+
+    $("rows").innerHTML =
+      r.rows.map(
+        x =>
+          "<tr><td>" +
+          x.grade +
+          "</td>" +
+          x.vals.map(
+            v =>
+              "<td>" +
+              fmt(v, 2) +
+              "</td>"
+          ).join("") +
+          "</tr>"
+      ).join("");
+
+  }, 30);
 };
-$('reset').onclick=renderPet;
-$('search').oninput=renderList;
-fetch('/data/pets.json',{cache:'no-store'})
-  .then(async r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()})
-  .then(d=>{
-    if(!Array.isArray(d.pets)||!d.pets.length)throw Error('데이터 없음');
-    pets=d.pets;selected=pets[0].toinfoId;
-    $('snapshot').textContent=d.complete?('toinfo.work 전체 목록 · '+pets.length+'마리'+(d.updatedAt?' · 최종 갱신 '+new Date(d.updatedAt).toLocaleString('ko-KR'):'') ):('제공받은 첫 페이지 '+pets.length+'마리 · 전체 동기화 전');
-    renderList();renderPet();
-  })
-  .catch(e=>{$('snapshot').textContent='데이터를 불러오지 못했습니다: '+e.message});
+
+
+/*
+====================================
+초기치 재설정
+====================================
+*/
+
+$("reset").onclick = renderPet;
+
+
+/*
+====================================
+검색 입력
+====================================
+*/
+
+$("search").oninput = renderList;
+
+
+/*
+====================================
+페트 데이터 불러오기
+====================================
+*/
+
+fetch(
+  "/data/pets.json",
+  { cache: "no-store" }
+)
+
+.then(async r => {
+
+  if (!r.ok) {
+    throw Error(
+      "HTTP " + r.status
+    );
+  }
+
+  return r.json();
+
+})
+
+.then(d => {
+
+  if (
+    !Array.isArray(d.pets) ||
+    !d.pets.length
+  ) {
+
+    throw Error(
+      "데이터 없음"
+    );
+  }
+
+  // 원본 데이터 보존 + 초기치 순서 보정
+  pets = d.pets.map(normalizedPet);
+
+  selected = pets[0].toinfoId;
+
+  $("snapshot").textContent =
+    d.complete
+      ? (
+          "toinfo.work 전체 목록 · " +
+          pets.length +
+          "마리" +
+          (
+            d.updatedAt
+              ? " · 최종 갱신 " +
+                new Date(
+                  d.updatedAt
+                ).toLocaleString("ko-KR")
+              : ""
+          )
+        )
+      : (
+          "제공받은 첫 페이지 " +
+          pets.length +
+          "마리 · 전체 동기화 전"
+        );
+
+  renderList();
+  renderPet();
+
+})
+
+.catch(e => {
+
+  $("snapshot").textContent =
+    "데이터를 불러오지 못했습니다: " +
+    e.message;
+
+});
+
 </script>
+
 </body>
 </html>
