@@ -4,373 +4,245 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>에덴 페트 계산기</title>
+<title>에덴 페트 성장률 계산기</title>
 <style>
-:root {
-  font-family: system-ui, "Malgun Gothic", sans-serif;
-  color: #172333;
-  background: #fff;
-}
-* { box-sizing: border-box; }
-body { margin: 0; }
-header {
-  padding: 22px max(20px, calc((100% - 1160px)/2));
-  border-bottom: 1px solid #e5eaf0;
-}
-header h1 { margin: 0; font-size: 25px; }
-header p { margin: 7px 0 0; color: #64748b; font-size: 13px; }
-header a { color: #2563eb; text-decoration: none; }
-main {
-  max-width: 1160px;
-  margin: auto;
-  padding: 25px 20px;
-  display: grid;
-  grid-template-columns: 300px minmax(0,1fr);
-  gap: 22px;
-}
-.panel {
-  padding: 21px;
-  margin-bottom: 18px;
-  border: 1px solid #e5eaf0;
-  border-radius: 14px;
-  background: white;
-}
-h2 { margin: 0 0 15px; font-size: 17px; }
-.muted { color: #64748b; }
-.small { font-size: 12px; }
-.tag {
-  background: #f1f5f9;
-  padding: 4px 9px;
-  border-radius: 20px;
-  font-size: 12px;
-}
-input,button { font: inherit; border-radius: 9px; }
-input {
-  width: 100%;
-  padding: 11px;
-  border: 1px solid #d8e0e9;
-  background: white;
-}
-button {
-  padding: 10px 13px;
-  border: 1px solid #d8e0e9;
-  background: white;
-  cursor: pointer;
-}
-button:disabled { opacity: .45; cursor: not-allowed; }
-.primary {
-  background: #2563eb;
-  color: white;
-  border-color: #2563eb;
-  font-weight: 700;
-}
-.pets { height: 490px; overflow: auto; margin-top: 12px; }
-.pet {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-  padding: 11px;
-  border: 0;
-  border-bottom: 1px solid #eef2f7;
-  border-radius: 0;
-  text-align: left;
-}
-.pet.active {
-  background: #eff6ff;
-  color: #1d4ed8;
-  font-weight: bold;
-  border-radius: 8px;
-}
-.pet-thumb {
-  width: 42px;
-  height: 42px;
-  object-fit: contain;
-}
-.pet-top { display: flex; align-items: center; gap: 16px; }
-.pet-top img {
-  width: 85px;
-  height: 85px;
-  object-fit: contain;
-  background: #f8fafc;
-  border-radius: 10px;
-}
-.stats {
-  display: grid;
-  grid-template-columns: repeat(4,minmax(0,1fr));
-  gap: 10px;
-}
-.stat {
-  padding: 12px;
-  border-radius: 10px;
-  background: #f7f9fc;
-}
-.stat label {
-  display: block;
-  margin-bottom: 8px;
-  color: #64748b;
-  font-size: 12px;
-}
-.step { display: flex; gap: 3px; }
-.step button { padding: 7px; }
-.step input {
-  min-width: 0;
-  text-align: center;
-  padding: 8px 3px;
-}
-.actions { display: flex; gap: 9px; flex-wrap: wrap; margin-top: 15px; }
-.notice {
-  padding: 13px;
-  border-radius: 10px;
-  background: #f8fafc;
-  color: #475569;
-  font-size: 13px;
-  line-height: 1.7;
-}
-.notice.error { background: #fff1f2; color: #be123c; }
-.notice.success { background: #eff6ff; color: #1d4ed8; }
-.kpis {
-  display: grid;
-  grid-template-columns: repeat(3,minmax(0,1fr));
-  gap: 10px;
-}
-.kpi {
-  border: 1px solid #e5eaf0;
-  border-radius: 10px;
-  padding: 15px;
-  font-size: 12px;
-}
-.kpi strong {
-  display: block;
-  margin-top: 8px;
-  font-size: 20px;
-  color: #1d4ed8;
-}
-.scroll { overflow: auto; max-height: 400px; }
-table { width: 100%; border-collapse: collapse; font-size: 13px; }
-th,td {
-  padding: 10px;
-  border-bottom: 1px solid #e5eaf0;
-  text-align: right;
-}
-th:first-child,td:first-child { text-align: left; }
-@media(max-width:800px) {
-  main { display: block; padding: 16px; }
-  .pets { height: 240px; }
-  .stats,.kpis { grid-template-columns: repeat(2,minmax(0,1fr)); }
+:root{font-family:system-ui,"Malgun Gothic",sans-serif;color:#172333}
+*{box-sizing:border-box}
+body{margin:0;background:#fff}
+header{border-bottom:1px solid #e5eaf0;padding:20px max(20px,calc((100% - 1160px)/2))}
+header h1{font-size:24px;margin:0}
+header p{font-size:12px;color:#64748b;margin:6px 0}
+header a{color:#2563eb;text-decoration:none}
+main{max-width:1160px;margin:auto;padding:22px 18px;display:grid;grid-template-columns:300px minmax(0,1fr);gap:20px}
+.panel{border:1px solid #e5eaf0;border-radius:14px;padding:20px;margin-bottom:17px}
+h2{font-size:18px;margin:0 0 14px}
+.small{font-size:12px;color:#64748b}
+input,button{font:inherit;border-radius:8px}
+input{border:1px solid #d8e0e9;padding:11px;width:100%;background:white}
+button{border:1px solid #d8e0e9;padding:10px 12px;background:white;cursor:pointer}
+button:hover{background:#eff6ff}
+.primary{background:#2563eb;color:white;border-color:#2563eb;font-weight:700}
+.primary:hover{background:#1d4ed8}
+.pets{height:480px;overflow:auto;margin-top:12px}
+.pet{display:flex;align-items:center;gap:10px;width:100%;text-align:left;border:0;border-bottom:1px solid #edf2f7;border-radius:0}
+.pet.active{background:#eff6ff;color:#1d4ed8;font-weight:700}
+.pet img{width:42px;height:42px;object-fit:contain}
+.pet-top{display:flex;align-items:center;gap:16px}
+.pet-top img{width:86px;height:86px;object-fit:contain;background:#f8fafc;border-radius:10px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.stat{background:#f7f9fc;border-radius:10px;padding:12px}
+.stat label{display:block;font-size:12px;color:#64748b;margin-bottom:8px}
+.step{display:flex;gap:3px}
+.step button{padding:7px}
+.step input{text-align:center;min-width:0;padding:7px 2px}
+.actions{display:flex;gap:9px;margin-top:15px;flex-wrap:wrap}
+.notice{padding:13px;border-radius:10px;background:#f8fafc;color:#475569;font-size:13px;line-height:1.7}
+.warning{background:#fffbeb;color:#92400e}
+.error{background:#fff1f2;color:#be123c}
+.success{background:#eff6ff;color:#1d4ed8}
+.kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:15px}
+.kpi{border:1px solid #e5eaf0;padding:14px;border-radius:10px;font-size:12px;color:#64748b}
+.kpi strong{display:block;font-size:21px;color:#1d4ed8;margin-top:8px;overflow-wrap:anywhere}
+.scroll{overflow:auto;max-height:420px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+td,th{border-bottom:1px solid #e5eaf0;padding:10px;text-align:right;white-space:nowrap}
+td:first-child,th:first-child{text-align:left}
+@media(max-width:800px){
+main{display:block;padding:14px}
+.pets{height:240px}
+.stats,.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+header{padding:18px}
 }
 </style>
 </head>
 <body>
-
 <header>
-  <div style="display:flex;justify-content:space-between;align-items:center">
-    <div>
-      <h1>에덴 페트 계산기</h1>
-      <p>toinfo.work 등록 페트 정보 기반</p>
-    </div>
-    <a href="/admin.html">관리자</a>
-  </div>
+<div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+<div>
+<h1>에덴 페트 성장률 계산기</h1>
+<p>toinfo.work 등록 페트 정보 기반 · 추정 계산 버전</p>
+</div>
+<a href="/admin.html">관리자</a>
+</div>
 </header>
 
 <main>
-  <aside>
-    <section class="panel">
-      <h2>페트 검색 <span class="tag" id="count">불러오는 중</span></h2>
-      <input id="search" placeholder="페트 이름 검색">
-      <div class="pets" id="petList"></div>
-    </section>
-    <div class="notice" id="snapshot">데이터 확인 중...</div>
-  </aside>
+<aside>
+<section class="panel">
+<h2>페트 검색 <span id="count" class="small">불러오는 중</span></h2>
+<input id="search" placeholder="페트 이름 검색">
+<div id="petList" class="pets"></div>
+</section>
+<div id="snapshot" class="notice">데이터 확인 중...</div>
+</aside>
 
-  <div>
-    <section class="panel">
-      <div class="pet-top">
-        <img id="photo" alt="">
-        <div>
-          <h2 id="petName">페트를 선택하세요</h2>
-          <div id="details" class="muted small"></div>
-        </div>
-      </div>
-      <p class="muted small" id="growth"></p>
-    </section>
+<div>
+<section class="panel">
+<div class="pet-top">
+<img id="photo" alt="">
+<div>
+<h2 id="petName">페트를 선택하세요</h2>
+<div id="details" class="small"></div>
+</div>
+</div>
+<p id="growth" class="small"></p>
+</section>
 
-    <section class="panel">
-      <h2>페트 초기 능력치</h2>
-      <p class="muted small">현재 페트의 초기 능력치를 입력하세요.</p>
-      <div class="stats" id="statInputs"></div>
-      <div class="actions">
-        <button type="button" id="calculate" class="primary">환각 계산</button>
-        <button type="button" id="reset">초기치 재설정</button>
-      </div>
-      <p class="notice">
-        정확한 환각 성장률 계산에는 검증된 기준 초기치와
-        계산 공식이 필요합니다. 기준값이 없는 페트는
-        계산할 수 없는 이유를 안내합니다.
-      </p>
-    </section>
+<section class="panel">
+<h2>페트 초기 능력치</h2>
+<p class="small">게임에서 확인한 초기 능력치 4개를 입력하세요.</p>
+<div id="statInputs" class="stats"></div>
+<div class="actions">
+<button id="calculate" type="button" class="primary">환각 계산</button>
+<button id="reset" type="button">초기치 재설정</button>
+</div>
+</section>
 
-    <section class="panel" id="resultPanel">
-      <h2>계산 결과</h2>
-      <p id="status" class="notice" role="status" aria-live="polite">
-        페트를 선택하세요.
-      </p>
-      <div class="kpis" id="kpis"></div>
-
-      <h2 style="margin-top:22px">등급별 후보</h2>
-      <div class="scroll">
-        <table>
-          <thead>
-            <tr><th>등급</th><th>후보 수</th><th>후보 비율</th></tr>
-          </thead>
-          <tbody id="grades"></tbody>
-        </table>
-      </div>
-
-      <details style="margin-top:16px">
-        <summary>상세 조합</summary>
-        <div class="scroll">
-          <table>
-            <thead>
-              <tr>
-                <th>등급</th><th>내구</th><th>공격</th>
-                <th>방어</th><th>순발</th>
-              </tr>
-            </thead>
-            <tbody id="rows"></tbody>
-          </table>
-        </div>
-      </details>
-    </section>
-  </div>
+<section class="panel" id="resultPanel">
+<h2>환각 계산 결과</h2>
+<div class="notice warning">
+이 계산은 기존에 제공된 역산 알고리즘을 사용합니다.
+게임의 실제 환각 확률이나 공식으로 검증된 값이 아니며,
+표시된 비율은 모델에서 일치한 후보들의 비율입니다.
+</div>
+<p id="status" class="notice" role="status" aria-live="polite">
+페트를 선택한 뒤 계산 버튼을 누르세요.
+</p>
+<div id="kpis" class="kpis"></div>
+<h2 style="margin-top:24px">등급별 후보</h2>
+<div class="scroll">
+<table>
+<thead><tr><th>등급</th><th>후보 수</th><th>후보 비율</th></tr></thead>
+<tbody id="grades"></tbody>
+</table>
+</div>
+<details style="margin-top:18px">
+<summary>상세 조합 (최대 300개)</summary>
+<div class="scroll">
+<table>
+<thead><tr><th>등급</th><th>내구</th><th>공격</th><th>방어</th><th>순발</th></tr></thead>
+<tbody id="rows"></tbody>
+</table>
+</div>
+</details>
+</section>
+</div>
 </main>
 
 <script>
 "use strict";
 
-const $ = id => document.getElementById(id);
-const keys = ["hp","atk","def","agi"];
-const names = ["내구력","공격력","방어력","순발력"];
+const $=id=>document.getElementById(id);
+const keys=["hp","atk","def","agi"];
+const names=["내구력","공격력","방어력","순발력"];
+const fmt=(n,d=2)=>Number(n||0).toFixed(d);
+let pets=[],selected=null;
 
-let pets = [];
-let selected = null;
-
-const fmt = (n,d=2) => Number(n || 0).toFixed(d);
-
-function current() {
-  return pets.find(p => String(p.toinfoId) === String(selected));
+function current(){
+  return pets.find(p=>String(p.toinfoId)===String(selected));
 }
 
-function showStatus(message,type="") {
-  const el = $("status");
-  el.textContent = message;
-  el.className = "notice" + (type ? " " + type : "");
+function status(message,type=""){
+  $("status").textContent=message;
+  $("status").className="notice "+type;
 }
 
-function clearResults() {
+function clearResults(){
   $("kpis").replaceChildren();
   $("grades").replaceChildren();
   $("rows").replaceChildren();
 }
 
-function renderList() {
-  const q = $("search").value.replace(/\s/g,"").toLowerCase();
-  const found = pets.filter(p =>
-    String(p.name || "").replace(/\s/g,"").toLowerCase().includes(q)
+function renderList(){
+  const q=$("search").value.replace(/\s/g,"").toLowerCase();
+  const found=pets.filter(p=>
+    String(p.name||"").replace(/\s/g,"").toLowerCase().includes(q)
   );
-
-  $("count").textContent = found.length + " / " + pets.length;
+  $("count").textContent=found.length+" / "+pets.length;
   $("petList").replaceChildren();
 
-  for (const p of found) {
-    const b = document.createElement("button");
-    b.type = "button";
-    b.className = "pet" +
-      (String(p.toinfoId) === String(selected) ? " active" : "");
+  for(const p of found){
+    const b=document.createElement("button");
+    b.type="button";
+    b.className="pet"+(
+      String(p.toinfoId)===String(selected)?" active":""
+    );
 
-    const img = document.createElement("img");
-    img.className = "pet-thumb";
-    img.loading = "lazy";
-    img.alt = "";
-    if (p.image) img.src = p.image;
-    img.onerror = () => { img.style.visibility = "hidden"; };
+    const img=document.createElement("img");
+    img.alt="";
+    img.loading="lazy";
+    if(p.image)img.src=p.image;
+    img.onerror=()=>img.style.visibility="hidden";
 
-    const label = document.createElement("span");
-    label.textContent = p.name + " · " + fmt(p.total);
-
+    const label=document.createElement("span");
+    label.textContent=p.name+" · "+fmt(p.total);
     b.append(img,label);
-    b.onclick = () => {
-      selected = p.toinfoId;
+
+    b.onclick=()=>{
+      selected=p.toinfoId;
       renderList();
       renderPet();
     };
-
     $("petList").append(b);
   }
 }
 
-function renderPet() {
-  const p = current();
-  if (!p) return;
+function renderPet(){
+  const p=current();
+  if(!p)return;
 
-  $("petName").textContent = p.name;
+  $("petName").textContent=p.name;
+  $("photo").alt=p.name;
+  $("photo").style.visibility=p.image?"visible":"hidden";
+  if(p.image)$("photo").src=p.image;
+  else $("photo").removeAttribute("src");
+  $("photo").onerror=()=>$("photo").style.visibility="hidden";
 
-  const photo = $("photo");
-  photo.style.visibility = "visible";
-  photo.alt = p.name;
-  if (p.image) {
-    photo.src = p.image;
-  } else {
-    photo.removeAttribute("src");
-    photo.style.visibility = "hidden";
-  }
-  photo.onerror = () => { photo.style.visibility = "hidden"; };
+  $("details").textContent=
+    Object.entries(p.attrs||{}).map(([k,v])=>k+v).join(" / ")+
+    " · "+(p.source||"획득처 미상")+
+    " · 기술창 "+(p.skillSlots??"-");
 
-  $("details").textContent =
-    Object.entries(p.attrs || {}).map(([k,v]) => k + v).join(" / ") +
-    " · " + (p.source || "획득처 미상") +
-    " · 기술창 " + (p.skillSlots ?? "-");
-
-  $("growth").textContent =
-    "전체 " + fmt(p.total) +
-    " / 공격 " + fmt(p.atk?.[1]) +
-    " / 방어 " + fmt(p.def?.[1]) +
-    " / 순발 " + fmt(p.agi?.[1]) +
-    " / 내구 " + fmt(p.hp?.[1]);
+  $("growth").textContent=
+    "전체 성장률 "+fmt(p.total)+
+    " / 내구 "+fmt(p.hp?.[1])+
+    " / 공격 "+fmt(p.atk?.[1])+
+    " / 방어 "+fmt(p.def?.[1])+
+    " / 순발 "+fmt(p.agi?.[1]);
 
   $("statInputs").replaceChildren();
 
-  keys.forEach((k,i) => {
-    const box = document.createElement("div");
-    box.className = "stat";
+  keys.forEach((key,i)=>{
+    const box=document.createElement("div");
+    box.className="stat";
 
-    const label = document.createElement("label");
-    label.textContent = names[i];
-    label.htmlFor = "s" + i;
+    const label=document.createElement("label");
+    label.textContent=names[i];
+    label.htmlFor="s"+i;
 
-    const step = document.createElement("div");
-    step.className = "step";
+    const step=document.createElement("div");
+    step.className="step";
 
-    const minus = document.createElement("button");
-    minus.type = "button";
-    minus.textContent = "−";
+    const minus=document.createElement("button");
+    minus.type="button";
+    minus.textContent="−";
 
-    const input = document.createElement("input");
-    input.type = "number";
-    input.min = "0";
-    input.step = "1";
-    input.id = "s" + i;
-    input.value = p.toinfoInitial?.[i] ?? 0;
+    const input=document.createElement("input");
+    input.type="number";
+    input.min="0";
+    input.step="1";
+    input.id="s"+i;
+    input.value=p.toinfoInitial?.[i]??0;
 
-    const plus = document.createElement("button");
-    plus.type = "button";
-    plus.textContent = "+";
+    const plus=document.createElement("button");
+    plus.type="button";
+    plus.textContent="+";
 
-    minus.onclick = () => {
-      input.value = Math.max(0,(Number(input.value) || 0)-1);
+    minus.onclick=()=>{
+      input.value=Math.max(0,(Number(input.value)||0)-1);
     };
-    plus.onclick = () => {
-      input.value = (Number(input.value) || 0)+1;
+    plus.onclick=()=>{
+      input.value=(Number(input.value)||0)+1;
     };
 
     step.append(minus,input,plus);
@@ -379,103 +251,267 @@ function renderPet() {
   });
 
   clearResults();
-  showStatus("초기 능력치를 확인한 뒤 환각 계산을 누르세요.");
+  status("초기 능력치를 입력한 뒤 환각 계산을 누르세요.");
 }
 
-function calculate() {
-  const p = current();
+/*
+  기존 제공 코드의 추정 계산 모델.
+  게임 공식으로 검증되지 않음.
+*/
 
-  if (!p) {
-    showStatus("먼저 페트를 선택해 주세요.","error");
+const bonus=[];
+for(let a=0;a<=10;a++)
+for(let b=0;a+b<=10;b++)
+for(let c=0;a+b+c<=10;c++)
+  bonus.push([a,b,c,10-a-b-c]);
+
+const fac=[1];
+for(let i=1;i<=10;i++)fac[i]=fac[i-1]*i;
+
+const bonusWeights=bonus.map(v=>
+  fac[10]/v.reduce((x,n)=>x*fac[n],1)
+);
+
+const offsets=[];
+for(let a=-2;a<=2;a++)
+for(let b=-2;b<=2;b++)
+for(let c=-2;c<=2;c++)
+for(let d=-2;d<=2;d++)
+  offsets.push([a,b,c,d,a+b+c+d]);
+
+function infer(p){
+  let [h,a,d,s]=keys.map(k=>Number(p[k][0]));
+  let v=s;
+  let aa=a-.05*v;
+  let dd=d-.05*v;
+  let ss=h-v;
+  let c=(aa-dd)/.9;
+  let l=(aa-c-.1*(ss-c)/4)/1.05;
+  let raw=[(ss-c-2*l)/4,l+c,l,v];
+
+  let best=null;
+
+  for(let init=10;init<=30;init++){
+    const alloc=raw.map(x=>x*100/init-4.5);
+    const error=Math.max(
+      ...alloc.map(x=>Math.abs(x-Math.round(x)))
+    );
+    if(!best||error<best.error-1e-9){
+      best={
+        init,
+        alloc:alloc.map(Math.round),
+        error
+      };
+    }
+  }
+  return best;
+}
+
+function calc(p,observed){
+  const inferred=infer(p);
+  const {init,alloc,error}=inferred;
+
+  const counts=new Map();
+  let total=0;
+  let hwan=0;
+  let weighted=0;
+  let weightedHwan=0;
+  const rows=[];
+
+  for(const o of offsets){
+    for(let j=0;j<bonus.length;j++){
+      const b=bonus[j];
+      const v=alloc.map((x,i)=>x+o[i]+b[i]);
+
+      const h=v[0]*init/100;
+      const a=v[1]*init/100;
+      const d=v[2]*init/100;
+      const s=v[3]*init/100;
+
+      const vals=[
+        4*h+a+d+s,
+        .1*h+a+.1*d+.05*s,
+        .1*h+.1*a+d+.05*s,
+        s
+      ];
+
+      if(vals.some((x,i)=>
+        !Number.isFinite(x)||
+        Math.floor(x)!==observed[i]
+      ))continue;
+
+      const grade=o[4];
+      const w=bonusWeights[j];
+
+      total++;
+      counts.set(grade,(counts.get(grade)||0)+1);
+      weighted+=w;
+
+      if(grade===8){
+        hwan++;
+        weightedHwan+=w;
+      }
+
+      if(rows.length<300){
+        rows.push({grade,vals});
+      }
+    }
+  }
+
+  return {
+    total,
+    hwan,
+    rate:total?hwan/total:0,
+    weightedRate:weighted?weightedHwan/weighted:0,
+    counts:[...counts].sort((a,b)=>b[0]-a[0]),
+    rows:rows.sort((a,b)=>b.grade-a.grade),
+    appearRate:total/(offsets.length*bonus.length),
+    error,
+    init
+  };
+}
+
+function addKpi(label,value){
+  const box=document.createElement("div");
+  box.className="kpi";
+  const name=document.createElement("span");
+  name.textContent=label;
+  const strong=document.createElement("strong");
+  strong.textContent=value;
+  box.append(name,strong);
+  $("kpis").append(box);
+}
+
+function addRow(parent,values){
+  const tr=document.createElement("tr");
+  for(const value of values){
+    const td=document.createElement("td");
+    td.textContent=String(value);
+    tr.append(td);
+  }
+  parent.append(tr);
+}
+
+function calculate(){
+  const p=current();
+  if(!p){
+    status("먼저 페트를 선택하세요.","error");
+    return;
+  }
+
+  const observed=keys.map((_,i)=>{
+    const raw=$("s"+i)?.value;
+    return raw===""?NaN:Number(raw);
+  });
+
+  if(observed.some(v=>!Number.isInteger(v)||v<0)){
+    status("초기 능력치는 0 이상의 정수여야 합니다.","error");
     $("resultPanel").scrollIntoView({behavior:"smooth"});
     return;
   }
 
-  const observed = keys.map((_,i) => Number($("s"+i)?.value));
-
-  if (observed.some(v => !Number.isInteger(v) || v < 0)) {
-    showStatus("초기 능력치는 0 이상의 정수로 입력해 주세요.","error");
-    $("resultPanel").scrollIntoView({behavior:"smooth"});
+  if(keys.some(k=>
+    !Array.isArray(p[k])||
+    !Number.isFinite(Number(p[k][0]))
+  )){
+    status("이 페트는 계산에 필요한 기준 데이터가 부족합니다.","error");
     return;
   }
 
   clearResults();
+  status("추정 후보를 계산하고 있습니다...");
 
-  if (p.baselineVerified !== true) {
-    showStatus(
-      "입력값 확인 완료: " + p.name + " (" +
-      observed.join(" / ") + "). " +
-      "다만 이 페트의 소수점 S랭크 기준 초기치가 " +
-      "검증되지 않아 정확한 환각 성장률을 계산할 수 없습니다.",
-      "error"
-    );
-    $("resultPanel").scrollIntoView({
-      behavior:"smooth",
-      block:"center"
-    });
-    return;
-  }
+  // 브라우저가 먼저 상태 문구를 그리도록 처리
+  setTimeout(()=>{
+    try{
+      const r=calc(p,observed);
 
-  showStatus("계산을 준비하고 있습니다.");
+      if(!r.total){
+        status(
+          "일치하는 후보가 없습니다. 입력값이나 "+
+          "현재 추정 계산 모델을 확인해야 합니다.",
+          "warning"
+        );
+        return;
+      }
 
-  // 현재 제공된 데이터와 공식만으로는 계산 결과의
-  // 정확성을 검증할 수 없으므로 임의의 값을 표시하지 않습니다.
-  showStatus(
-    p.name + "의 기준값이 확인된 것으로 표시되어 있지만 " +
-    "계산 공식의 검증이 완료되지 않았습니다. " +
-    "정확한 환각 성장률 계산 기능은 아직 준비 중입니다.",
-    "error"
-  );
+      status(
+        p.name+" · 입력값 "+observed.join(" / ")+
+        " · 기준 초기치 역산 계수 "+r.init+
+        " · 역산 오차 "+fmt(r.error,4)+
+        " · 추정 계산 완료 (게임 공식 미검증)",
+        "success"
+      );
+
+      addKpi("일치 후보",r.total.toLocaleString()+"개");
+      addKpi("환각 후보",r.hwan.toLocaleString()+"개");
+      addKpi("환각 후보 비율",fmt(r.rate*100,4)+"%");
+      addKpi("가중 환각 후보 비율",fmt(r.weightedRate*100,4)+"%");
+      addKpi("전체 조합 대비 일치율",fmt(r.appearRate*100,4)+"%");
+      addKpi("역산 오차",fmt(r.error,4));
+
+      for(const [grade,count] of r.counts){
+        addRow($("grades"),[
+          grade,
+          count.toLocaleString(),
+          fmt(count/r.total*100,2)+"%"
+        ]);
+      }
+
+      for(const row of r.rows){
+        addRow($("rows"),[
+          row.grade,
+          ...row.vals.map(v=>fmt(v,2))
+        ]);
+      }
+
+    }catch(err){
+      console.error("계산 오류:",err);
+      status("계산 오류: "+err.message,"error");
+    }
+  },30);
 
   $("resultPanel").scrollIntoView({
     behavior:"smooth",
-    block:"center"
+    block:"start"
   });
 }
 
-$("calculate").addEventListener("click", calculate);
-$("reset").addEventListener("click", renderPet);
-$("search").addEventListener("input", renderList);
+$("calculate").addEventListener("click",calculate);
+$("reset").addEventListener("click",renderPet);
+$("search").addEventListener("input",renderList);
 
-async function loadPets() {
-  try {
-    const response = await fetch("/data/pets.json", {
+async function loadPets(){
+  try{
+    const response=await fetch("/data/pets.json",{
       cache:"no-store"
     });
+    if(!response.ok)throw Error("HTTP "+response.status);
 
-    if (!response.ok) {
-      throw new Error("HTTP " + response.status);
+    const data=await response.json();
+
+    if(!Array.isArray(data.pets)||!data.pets.length){
+      throw Error("페트 목록이 비어 있습니다.");
     }
 
-    const data = await response.json();
+    pets=data.pets;
+    selected=pets[0].toinfoId;
 
-    if (!Array.isArray(data.pets) || !data.pets.length) {
-      throw new Error("페트 데이터가 비어 있습니다.");
-    }
-
-    pets = data.pets;
-    selected = pets[0].toinfoId;
-
-    $("snapshot").textContent =
-      (data.complete ? "전체 목록" : "일부 목록") +
-      " · " + pets.length + "마리" +
+    $("snapshot").textContent=
+      (data.complete?"전체 목록":"일부 목록")+
+      " · "+pets.length+"마리"+
       (data.updatedAt
-        ? " · 갱신 " + new Date(data.updatedAt).toLocaleString("ko-KR")
-        : "");
+        ?" · 갱신 "+new Date(data.updatedAt).toLocaleString("ko-KR")
+        :"");
 
     renderList();
     renderPet();
 
-  } catch (err) {
-    $("count").textContent = "오류";
-    $("snapshot").textContent =
-      "페트 데이터를 불러오지 못했습니다: " + err.message;
-
-    showStatus(
-      "데이터 로딩 실패: " + err.message +
-      ". GitHub의 data/pets.json과 Vercel 배포를 확인해 주세요.",
-      "error"
-    );
+  }catch(err){
+    $("count").textContent="오류";
+    $("snapshot").textContent=
+      "데이터 로딩 실패: "+err.message;
+    status("페트 데이터를 불러오지 못했습니다: "+err.message,"error");
   }
 }
 
